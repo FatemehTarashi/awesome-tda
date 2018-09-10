@@ -1,4 +1,4 @@
-# awesome-GTD
+# awesome-TDA
 
 A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) resources and links.
 
