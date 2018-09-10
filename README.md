@@ -56,10 +56,13 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
 
 ## Frameworks and Libs
 
-###
-
 ### C++
-- [GUDHI](http://gudhi.gforge.inria.fr/) - The GUDHI library is a generic open source C++ library, with a Python interface, for Topological Data Analysis (TDA) and Higher Dimensional Geometry Understanding. The library offers state-of-the-art data structures and algorithms to construct simplicial complexes and compute persistent homology.
+- [ctl](https://github.com/appliedtopology/ctl) - This C++11 library provides a set of generic tools for:
+  - Building Neighborhood Graphs
+  - Building Cellular Complexes
+  - Computing [persistent] homology over finite fields
+  - Parallel algorithm(s) for homology
+
 
 - [Dionysus](http://mrzv.org/software/dionysus/) - Dionysus is a C++ library for computing persistent homology. It provides implementations of the following algorithms:
   - Persistent homology computation 
@@ -67,8 +70,16 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
   - Persistent cohomology computation 
   - Zigzag persistent homology 
 
+- [GUDHI](http://gudhi.gforge.inria.fr/) - The GUDHI library is a generic open source C++ library, with a Python interface, for Topological Data Analysis (TDA) and Higher Dimensional Geometry Understanding. The library offers state-of-the-art data structures and algorithms to construct simplicial complexes and compute persistent homology.
+
+### Java
+  - [JavaPlex](https://github.com/appliedtopology/javaplex) - Persistent Homology and Topological Data Analysis Library - The JavaPlex library implements persistent homology and related techniques from computational and applied topology, in a library designed for ease of use, ease of access from Matlab and java-based systems, and ease of extensions for further research projects and approaches. JavaPlex is mainly developed by the Computational Topology workgroup at Stanford University, and is based on previous similar packages from the same group.
+
+### Python
+-[kohonen](https://github.com/lmjohns3/kohonen) - This module contains some basic implementations of Kohonen-style vector quantizers: Self-Organizing Map (SOM), Neural Gas, and Growing Neural Gas. Kohonen-style vector quantizers use some sort of explicitly specified topology to encourage good separation among prototype "neurons".
+
 ### R
-- [TDAmapper](https://github.com/paultpearson/TDAmapper/) - TDAmapper: Topological Data Analysis using Mapper is An R package for using discrete Morse theory to analyze a data set using the Mapper algorithm described in G. Singh, F. Memoli, G. Carlsson (2007)
+- [TDAmapper](https://github.com/paultpearson/TDAmapper/) - Topological Data Analysis using Mapper - An R package for using discrete Morse theory to analyze a data set using the Mapper algorithm described in G. Singh, F. Memoli, G. Carlsson (2007)
 
 ## License
 
