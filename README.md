@@ -8,14 +8,17 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
 
 - [Theory](#theory)
   - [Algorithms](#algorithms)
-    - [Persistent homology](#Persistent-homology)
-    - [Reeb graph](#Reeb-graph)
     - [Morse-Smale complex](#Morse-Smale-complex)
+    - [Persistent homology computation](#Persistent-homology-computation)
+    - [Persistent cohomology computation](#Persistent-cohomology-computation)
+    - [Reeb graph](#Reeb-graph)
+    - [Vineyards](#Vineyards)
+    - [Zigzag persistent homology ](#Zigzag-persistent-homology )
+
     
   - [Articles](#articles)
   - [Books](#books)
   - [Courses](#courses)
-    - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html)
   - [Other lists](#other-lists)
 - [Tools](#tools)
 - [Frameworks and Libs](#frameworks-and-libs)
@@ -44,16 +47,28 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
 ### Books
 
 ### Courses
+- [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html)
 
 ### Other lists
 
 ## Tools
+- [TTk](https://topology-tool-kit.github.io/index.html) - The Topology ToolKit (TTK) is an open-source library and software collection for topological data analysis in scientific visualization. TTK can handle scalar data defined either on regular grids or triangulations, either in 2D or in 3D. It provides a substantial collection of generic, efficient and robust implementations of key algorithms in topological data analysis.
 
 ## Frameworks and Libs
 
-### C++
+###
 
+### C++
 - [GUDHI](http://gudhi.gforge.inria.fr/) - The GUDHI library is a generic open source C++ library, with a Python interface, for Topological Data Analysis (TDA) and Higher Dimensional Geometry Understanding. The library offers state-of-the-art data structures and algorithms to construct simplicial complexes and compute persistent homology.
+
+- [Dionysus](http://mrzv.org/software/dionysus/) - Dionysus is a C++ library for computing persistent homology. It provides implementations of the following algorithms:
+  - Persistent homology computation 
+  - Vineyards (C++ only)
+  - Persistent cohomology computation 
+  - Zigzag persistent homology 
+
+### R
+- [TDAmapper](https://github.com/paultpearson/TDAmapper/) - TDAmapper: Topological Data Analysis using Mapper is An R package for using discrete Morse theory to analyze a data set using the Mapper algorithm described in G. Singh, F. Memoli, G. Carlsson (2007)
 
 ## License
 
