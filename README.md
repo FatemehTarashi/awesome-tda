@@ -14,16 +14,17 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
     - [Reeb graph](#Reeb-graph)
     - [Vineyards](#Vineyards)
     - [Zigzag persistent homology ](#Zigzag-persistent-homology )
-
-    
   - [Articles](#articles)
   - [Books](#books)
   - [Courses](#courses)
   - [Other lists](#other-lists)
 - [Tools](#tools)
 - [Frameworks and Libs](#frameworks-and-libs)
-  - [GUDHI](#GUDHI)
+  - [c++](#c++)
+  - [Java](#java)
   - [Python](#python)
+  - [R](#R)
+  - [Spark](#spark)
 - [Resources](#resources)
   - [Blogs](#blogs)
   - [Mailing lists](#mailing-lists)
@@ -45,6 +46,42 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
 ### Articles
 
 ### Books
+-[]()
+  - [About this book]
+
+-[Topological and Statistical Methods for Complex Data]() Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces -  Editors: Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.) 
+  - [About this book] This book contains papers presented at the Workshop on the Analysis of Large-scale, High-Dimensional, and Multi-Variate Data Using Topology and Statistics, held in Le Barp, France, June 2013. It features the work of some of the most prominent and recognized leaders in the field who examine challenges as well as detail solutions to the analysis of extreme scale data.
+
+The book presents new methods that leverage the mutual strengths of both topological and statistical techniques to support the management, analysis, and visualization of complex data. It covers both theory and application and provides readers with an overview of important key concepts and the latest research trends.
+
+Coverage in the book includes multi-variate and/or high-dimensional analysis techniques, feature-based statistical methods, combinatorial algorithms, scalable statistics algorithms, scalar and vector field topology, and multi-scale representations. In addition, the book details algorithms that are broadly applicable and can be used by application scientists to glean insight from a wide range of complex data sets.
+  
+- [Topological Methods in Data Analysis and Visualization](https://www.springer.com/gp/book/9783642150135) Theory, Algorithms, and Applications - Editors: Pascucci, V., Tricoche, X., Hagen, H., Tierny, J. (Eds.) 
+  - [About this book] Topology-based methods are of increasing importance in the analysis and visualization of datasets from a wide variety of scientific domains such as biology, physics, engineering, and medicine. Current challenges of topology-based techniques include the management of time-dependent data, the representation large and complex datasets, the characterization of noise and uncertainty, the effective integration of numerical methods with robust combinatorial algorithms, etc. While there is an increasing number of high-quality publications in this field, many fundamental questions remain unsolved. New focused efforts are needed in a variety of techniques ranging from the theoretical foundations of topological models, algorithmic issues related to the representation power of computer-based implementations as well as their computational efficiency, user interfaces for presentation of quantitative topological information, and the development of new techniques for systematic mapping of science problems in topological constructs that can be solved computationally. The editors have brought together the most prominent and best recognized researchers in the field of topology-based data analysis and visualization for a joint discussion and scientific exchange of the latest results in the field. The 2009 "TopoInVis" workshop in Snowbird, Utah, follows the two successful workshops in 2005 (Budmerice, Slovakia) and 2007 (Leipzig, Germany).
+
+- [Topological Methods in Data Analysis and Visualization II](https://www.springer.com/gp/book/9783642231742)  Theory, Algorithms, and Applications - Editors: Peikert, R., Hauser, H., Carr, H., Fuchs, R. (Eds.) 
+  - [About this book] When scientists analyze datasets in a search for underlying phenomena, patterns or causal factors, their first step is often an automatic or semi-automatic search for structures in the data. Of these feature-extraction methods, topological ones stand out due to their solid mathematical foundation. Topologically defined structures—as found in scalar, vector and tensor fields—have proven their merit in a wide range of scientific domains, and scientists have found them to be revealing in subjects such as physics, engineering, and medicine.
+
+    Full of state-of-the-art research and contemporary hot topics in the subject, this volume is a selection of peer-reviewed papers originally presented at the fourth Workshop on Topology-Based Methods in Data Analysis and Visualization, TopoInVis 2011, held in Zurich, Switzerland. The workshop brought together many of the leading lights in the field for a mixture of formal presentations and discussion. One topic currently generating a great deal of interest, and explored in several chapters here, is the search for topological structures in time-dependent flows, and their relationship with Lagrangian coherent structures. Contributors also focus on discrete topologies of scalar and vector fields, and on persistence-based simplification, among other issues of note. The new research results included in this volume relate to all three key areas in data analysis—theory, algorithms and applications.
+
+- [Topological Methods in Data Analysis and Visualization III](https://www.springer.com/gp/book/9783319040981)  Theory, Algorithms, and Applications - Editors: Bremer, P.-T., Hotz, I., Pascucci, V., Peikert, R. (Eds.) 
+ - [About this book] his collection of peer-reviewed conference papers provides comprehensive coverage of cutting-edge research in topological approaches to data analysis and visualization. It encompasses the full range of new algorithms and insights, including fast homology computation, comparative analysis of simplification techniques, and key applications in materials and medical science. The volume also features material on core research challenges such as the representation of large and complex datasets and integrating numerical methods with robust combinatorial algorithms.
+
+Reflecting the focus of the TopoInVis 2013 conference, the contributions evince the progress currently being made on finding experimental solutions to open problems in the sector. They provide an inclusive snapshot of state-of-the-art research that enables researchers to keep abreast of the latest developments and provides a foundation for future progress. With papers by some of the world’s leading experts in topological techniques, this volume is a major contribution to the literature in a field of growing importance with applications in disciplines that range from engineering to medicine.
+ 
+- [Topological Methods in Data Analysis and Visualization IV](https://www.springer.com/gp/book/9783319446820)  Theory, Algorithms, and Applications -  Editors: Carr, Hamish, Garth, Christoph, Weinkauf, Tino (Eds.) 
+ - [About this book] This book presents contributions on topics ranging from novel applications of topological analysis for particular problems, through studies of the effectiveness of modern topological methods, algorithmic improvements on existing methods, and parallel computation of topological structures, all the way to mathematical topologies not previously applied to data analysis.
+
+Topological methods are broadly recognized as valuable tools for analyzing the ever-increasing flood of data generated by simulation or acquisition. This is particularly the case in scientific visualization, where the data sets have long since surpassed the ability of the human mind to absorb every single byte of data.
+
+The biannual TopoInVis workshop has supported researchers in this area for a decade, and continues to serve as a vital forum for the presentation and discussion of novel results in applications in the area, creating a platform to disseminate knowledge about such implementations throughout and beyond the community.
+
+The present volume, resulting from the 2015 TopoInVis workshop held in Annweiler, Germany, will appeal to researchers in the fields of scientific visualization and mathematics, domain scientists with an interest in advanced visualization methods, and developers of visualization software systems.
+
+-[Topology-based Methods in Visualization](https://www.springer.com/gp/book/9783540708223)  Editors: Hauser, Helwig, Hagen, Hans, Theisel, Holger (Eds.) 
+  - [About this book] Enabling insight into large and complex datasets is a prevalent theme in visualization research for which different approaches are pursued.
+
+Topology-based methods are built on the idea of abstracting characteristic structures such as the topological skeleton from the data and to construct the visualizations accordingly. There are currently new demands for and renewed interest in topology-based visualization solutions. This book presents 13 peer-reviewed papers as written results from the 2005 workshop “Topology-Based Methods in Visualization” that was initiated to enable additional stimulation in this field. It contains a longer chapter dedicated to a survey of the state-of-the-art, as well as a great deal of original work by leading experts that has not been published before, spanning both theory and applications. It captures key concepts and novel ideas and serves as an overview of current trends in topology-based visualization research.
 
 ### Courses
 - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html)
