@@ -17,6 +17,7 @@ awesome-TDA is under development!
   - [Articles](#articles)
     - [Homological Algebra and Data - Robert Ghrist](homological-algebra-and-data-robert-ghrist)
     - [Topological Data Analysis - Larry Wasserman](topological-data-analysis-larry-wasserman)
+    - [Topological Data Analysis for Object Data - Patrangenaru,Bubenik,Paige,Osborne](#topological-data-analysis-for-object-data)
   
   - [Books](#books)
     - [A Short Course in Computational Geometry and Topology](a-short-course-in-computational-geometry-and-topology)
@@ -37,6 +38,7 @@ awesome-TDA is under development!
     - [Ctl](#ctl)
     - [Dionysus](#dionysus)
     - [GUDHI](#gudhi)
+    - [PHAT](#phat)
     - [TDA](#tda)
   - [Java](#java)
     - [JavaPlex](#javaplex)
@@ -76,14 +78,20 @@ awesome-TDA is under development!
 #### Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions
 
 ### Articles
-#### Homological Algebra and Data - Robert Ghrist
-  These  lectures  are  a  quick  primer  on  the  basics  of  applied  algebraic topology with emphasis on applications to data. In particular, the perspectives of (elementary) homological algebra, in the form of complexes and co/homological invariants are sketched. Beginning with simplicial and cell complexes as a means of enriching graphs to higher-order structures, we define simple algebraic topological invariants, such as Euler characteristic.  By lifting from complexes of simplices to algebraic complexes of vector spaces, we pass to homology as a topological compression scheme.  Iterating this process of expanding to sequences and compressing via homological algebra, we define persistent homology and related theories, ending with a simple approach to cellular sheaves and their cohomology. Throughout, an emphasis is placed on expressing homological-algebraic tools as
-the natural evolution of linear algebra. Category-theoretic language (though morenatural and expressive) is deemphasized, for the sake of access.  Along the way, sample applications of these techniques are sketched,  in domains ranging from neuroscience to sensing, image analysis, robotics, and computation.[Pdf](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf)
+#### An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists
+  [Pdf](https://arxiv.org/pdf/1710.04019.pdf) - Abstract: Topological Data Analysis (tda) is a recent and fast growing field providing a set of new topological and geometric tools to infer relevant features for possibly complex data. This paper is a brief introduction, through a few selected topics, to basic fundamental and practical aspects of tda for non experts.
 
+#### Homological Algebra and Data - Robert Ghrist
+  [Pdf](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf) - Abstract: These  lectures  are  a  quick  primer  on  the  basics  of  applied  algebraic topology with emphasis on applications to data. In particular, the perspectives of (elementary) homological algebra, in the form of complexes and co/homological invariants are sketched. Beginning with simplicial and cell complexes as a means of enriching graphs to higher-order structures, we define simple algebraic topological invariants, such as Euler characteristic.  By lifting from complexes of simplices to algebraic complexes of vector spaces, we pass to homology as a topological compression scheme.  Iterating this process of expanding to sequences and compressing via homological algebra, we define persistent homology and related theories, ending with a simple approach to cellular sheaves and their cohomology. Throughout, an emphasis is placed on expressing homological-algebraic tools as
+the natural evolution of linear algebra. Category-theoretic language (though morenatural and expressive) is deemphasized, for the sake of access.  Along the way, sample applications of these techniques are sketched,  in domains ranging from neuroscience to sensing, image analysis, robotics, and computation.
 
 #### Topological Data Analysis - Larry Wasserman 
-  Topological Data Analysis (TDA) can broadly be described as a collection of data analysis methods that find structure in data.  This includes: clustering, manifold estimation, nonlinear dimension reduction, mode estimation, ridge estimation and persistent homology.  This paper reviews some of these methods. [Pdf](https://arxiv.org/pdf/1609.08227.pdf)
+  [Pdf](https://arxiv.org/pdf/1609.08227.pdf) - Abstract: Topological Data Analysis (TDA) can broadly be described as a collection of data analysis methods that find structure in data.  This includes: clustering, manifold estimation, nonlinear dimension reduction, mode estimation, ridge estimation and persistent homology.  This paper reviews some of these methods. 
 
+#### Topological Data Analysis for Object Data - Patrangenaru,Bubenik,Paige,Osborne
+  [Pdf](https://arxiv.org/pdf/1804.10255.pdf) - Abstract: Statistical analysis on object data presents many challenges.  Basic summaries such as means and variances are difficult to compute.  We apply ideas from topology to study object data.  We present a framework for using persistence landscapes to vectorize object data and perform statistical analysis. We apply to this pipeline to some biological images that were previously shown to be challenging to study using shape theory. Surprisingly, the most persistent features are shown to be “topological noise” and the statistical analysis depends on the less persistent features which we refer to as the “geometric signal”. We also describe the first steps to a new approach to using topology for object data analysis,  which applies topology to distributions on object spaces
+  
+  
 ### Books
 #### A Short Course in Computational Geometry and Topology
    Authors: Edelsbrunner, Herbert [springer link](https://www.springer.com/gp/book/9783319059563)
@@ -150,6 +158,8 @@ the natural evolution of linear algebra. Category-theoretic language (though mor
 ### TTK
 [TTk](https://topology-tool-kit.github.io/index.html) - The Topology ToolKit is an open-source library and software collection for topological data analysis in scientific visualization. TTK can handle scalar data defined either on regular grids or triangulations, either in 2D or in 3D. It provides a substantial collection of generic, efficient and robust implementations of key algorithms in topological data analysis.
 
+For more information you can read ["Topological Data Analysis Made Easy with the Topology ToolKit"](https://arxiv.org/pdf/1806.08126.pdf) article.
+
 ## Frameworks and Libs
 
 ### C++
@@ -170,6 +180,14 @@ the natural evolution of linear algebra. Category-theoretic language (though mor
 #### GUDHI
 [GUDHI](http://gudhi.gforge.inria.fr/) - The GUDHI library is a generic open source C++ library, with a Python interface, for Topological Data Analysis (TDA) and Higher Dimensional Geometry Understanding. The library offers state-of-the-art data structures and algorithms to construct simplicial complexes and compute persistent homology.
 
+####  PHAT
+[phat](https://bitbucket.org/phat-code/phat) - This software library contains methods for computing the persistence pairs of a filtered cell complex represented by an ordered boundary matrix with Z<sub>2</sub> coefficients. For an introduction to persistent homology, see the textbook. This software package contains code for several algorithmic variants:
+  - The "standard" algorithm 
+  - The "row" algorithm 
+  - The "twist" algorithm
+  - The "chunk" algorithm 
+  - The "spectral sequence" algorithm 
+  
 #### TDA
 [TDA](https://cran.r-project.org/web/packages/TDA/) - tools for the statistical analysis of persistent homology and for density clustering. For that, this package provides an R interface for the efficient algorithms of the C++ libraries [GUDHI](http://gudhi.gforge.inria.fr/), [Dionysus](http://www.mrzv.org/software/dionysus/), and [PHAT](https://bitbucket.org/phat-code/phat/). This package also implements the methods in Fasy et al. [(2014)](doi:10.1214/14-AOS1252) and Chazal et al. [(2014)](doi:10.1145/2582112.2582128) for analyzing the statistical significance of persistent homology features.
 
@@ -225,6 +243,7 @@ Current packages available:
   - [Scalable Tower Computation for Multiscale Mapper]
   - [Scalable Persistent Homology Computation on Top of Apache Spark]
   
+ For more information you can read ["Sparse-TDA: Sparse Realization of Topological Data Analysis for Multi-Way Classification"](https://arxiv.org/pdf/1701.03212.pdf) article.
   
   
 ## License
