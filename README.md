@@ -15,6 +15,7 @@ awesome-TDA is under development!
     - [Vineyards](#vineyards)
     - [Zigzag persistent homology ](#zigzag-persistent-homology )
   - [Books](#books)
+    - [A Short Course in Computational Geometry and Topology](a-short-course-in-computational-geometry-and-topology)
     - [Topological and Statistical Methods for Complex Data](#topological-and-statistical-methods-for-complex-data)
     - [Topological Data Analysis for Scientific Visualization](#topological-data-analysis-for-scientific-visualization )
     - [Topological Methods in Data Analysis and Visualization](#topological-methods-in-data-analysis-and-visualization)
@@ -68,10 +69,13 @@ awesome-TDA is under development!
 #### Reeb graph
 #### Vineyards
 #### Zigzag persistent homology
-
 #### Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions
 
 ### Books
+#### A Short Course in Computational Geometry and Topology
+   Authors: Edelsbrunner, Herbert [springer link](https://www.springer.com/gp/book/9783319059563)
+   - This monograph presents a short course in computational geometry and topology. In the first part the book covers Voronoi diagrams and Delaunay triangulations, then it presents the theory of alpha complexes which play a crucial role in biology. The central part of the book is the homology theory and their computation, including the theory of persistence which is indispensable for applications, e.g. shape reconstruction. The target audience comprises researchers and practitioners in mathematics, biology, neuroscience and computer science, but the book may also be beneficial to graduate students of these fields.
+
 #### Topological and Statistical Methods for Complex Data
   Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces -  Editors: Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.) [springer link](https://www.springer.com/gp/book/9783662448991)  
   
@@ -120,8 +124,8 @@ awesome-TDA is under development!
      Topology-based methods are built on the idea of abstracting characteristic structures such as the topological skeleton from the data and to construct the visualizations accordingly. There are currently new demands for and renewed interest in topology-based visualization solutions. This book presents 13 peer-reviewed papers as written results from the 2005 workshop “Topology-Based Methods in Visualization” that was initiated to enable additional stimulation in this field. It contains a longer chapter dedicated to a survey of the state-of-the-art, as well as a great deal of original work by leading experts that has not been published before, spanning both theory and applications. It captures key concepts and novel ideas and serves as an overview of current trends in topology-based visualization research.
 
 ### Courses
-- [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html)
-
+- [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful
+- [Topological Data Analysis](hhttp://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful
 ### Other lists
 
 ## Tools
@@ -212,4 +216,5 @@ Current packages available:
   
 ## License
 
-`awesome-TDA by [@FatemehTarashi](https://github.com/FatemehTarashi)
+`awesome-TDA by [@FatemehTarashi](https://github.com/FatemehTarashi) is licensed under the
+GNU General Public License v3.0
