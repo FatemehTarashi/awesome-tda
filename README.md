@@ -14,6 +14,10 @@ awesome-TDA is under development!
     - [Reeb graph](#reeb-graph)
     - [Vineyards](#vineyards)
     - [Zigzag persistent homology ](#zigzag-persistent-homology )
+  - [Articles](#articles)
+    - [Homological Algebra and Data - Robert Ghrist](homological-algebra-and-data-robert-ghrist)
+    - [Topological Data Analysis - Larry Wasserman](topological-data-analysis-larry-wasserman)
+  
   - [Books](#books)
     - [A Short Course in Computational Geometry and Topology](a-short-course-in-computational-geometry-and-topology)
     - [Topological and Statistical Methods for Complex Data](#topological-and-statistical-methods-for-complex-data)
@@ -70,6 +74,15 @@ awesome-TDA is under development!
 #### Vineyards
 #### Zigzag persistent homology
 #### Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions
+
+### Articles
+#### Homological Algebra and Data - Robert Ghrist
+  These  lectures  are  a  quick  primer  on  the  basics  of  applied  algebraic topology with emphasis on applications to data. In particular, the perspectives of (elementary) homological algebra, in the form of complexes and co/homological invariants are sketched. Beginning with simplicial and cell complexes as a means of enriching graphs to higher-order structures, we define simple algebraic topological invariants, such as Euler characteristic.  By lifting from complexes of simplices to algebraic complexes of vector spaces, we pass to homology as a topological compression scheme.  Iterating this process of expanding to sequences and compressing via homological algebra, we define persistent homology and related theories, ending with a simple approach to cellular sheaves and their cohomology. Throughout, an emphasis is placed on expressing homological-algebraic tools as
+the natural evolution of linear algebra. Category-theoretic language (though morenatural and expressive) is deemphasized, for the sake of access.  Along the way, sample applications of these techniques are sketched,  in domains ranging from neuroscience to sensing, image analysis, robotics, and computation.[Pdf](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf)
+
+
+#### Topological Data Analysis - Larry Wasserman 
+  Topological Data Analysis (TDA) can broadly be described as a collection of data analysis methods that find structure in data.  This includes: clustering, manifold estimation, nonlinear dimension reduction, mode estimation, ridge estimation and persistent homology.  This paper reviews some of these methods. [Pdf](https://arxiv.org/pdf/1609.08227.pdf)
 
 ### Books
 #### A Short Course in Computational Geometry and Topology
