@@ -54,7 +54,7 @@ awesome-TDA is under development!
   - [Spark](#spark)
     - [Spark Mapper](#spark-mapper)
     - [Spark-tda](#spark-tda)
-<!--- [Resources](#resources)
+- [Resources](#resources)
   - [Blogs](#blogs)
   - [Mailing lists](#mailing-lists)
   - [Web-tools](#web-tools)
@@ -146,6 +146,7 @@ the natural evolution of linear algebra. Category-theoretic language (though mor
 
 ### Courses
 - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful
+
 - [Topological Data Analysis](hhttp://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful
 ### Other lists
 
@@ -245,7 +246,9 @@ Current packages available:
   
  For more information you can read ["Sparse-TDA: Sparse Realization of Topological Data Analysis for Multi-Way Classification"](https://arxiv.org/pdf/1701.03212.pdf) article.
   
-  
+## Resources  
+- [From Topological Data Analysis to Deep Learning: No Pain No Gain](https://towardsdatascience.com/from-tda-to-dl-d06f234f51d)
+
 ## License
 
 `awesome-TDA by [@FatemehTarashi](https://github.com/FatemehTarashi) is licensed under the
