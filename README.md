@@ -55,11 +55,12 @@ awesome-TDA is under development!
     - [Spark Mapper](#spark-mapper)
     - [Spark-tda](#spark-tda)
 - [Resources](#resources)
-  - [Blogs](#blogs)
-  - [Mailing lists](#mailing-lists)
-  - [Web-tools](#web-tools)
   - [Web-sites](#web-sites)
-- [Contributing](#contributing)-->
+ <!--- - [Blogs](#blogs)
+  - [Mailing lists](#mailing-lists)
+  - [Web-tools](#web-tools)-->
+  
+<!--- [Contributing](#contributing)-->
 - [License](#license)
 
 <!--lint enable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
