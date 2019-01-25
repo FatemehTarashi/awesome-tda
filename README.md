@@ -15,13 +15,15 @@ awesome-TDA is under development!
     - [Vineyards](#vineyards)
     - [Zigzag persistent homology ](#zigzag-persistent-homology )
   - [Articles](#articles)
-    - [Homological Algebra and Data - Robert Ghrist](homological-algebra-and-data-robert-ghrist)
-    - [Topological Data Analysis - Larry Wasserman](topological-data-analysis-larry-wasserman)
-    - [Topological Data Analysis for Object Data - Patrangenaru,Bubenik,Paige,Osborne](#topological-data-analysis-for-object-data)
-    - [ A User’s Guide to Topological Data Analysis - Elizabeth Munch](#a-users-guide-to-topological-data-analysis-elizabeth-munch)
+    - [A User’s Guide to Topological Data Analysis - Elizabeth Munch](#a-users-guide-to-topological-data-analysis-elizabeth-munch)
+    - [An introduction to Topological Data Analysis: fundamental and practical aspects for data scientists - Chazal, Michel](#an-introduction-to-Topological-Data-Analysis-fundamental-and-practical-aspects)
+    - [Homological Algebra and Data - Robert Ghrist](#homological-algebra-and-data-robert-ghrist)
+    - [Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau](#introduction-to-the-r-package-tda)
+    - [Topological Data Analysis - Larry Wasserman](#topological-data-analysis-larry-wasserman)
+    - [Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne](#topological-data-analysis-for-object-data)
   
   - [Books](#books)
-    - [A Short Course in Computational Geometry and Topology](a-short-course-in-computational-geometry-and-topology)
+    - [A Short Course in Computational Geometry and Topology](#a-short-course-in-computational-geometry-and-topology)
     - [Topological and Statistical Methods for Complex Data](#topological-and-statistical-methods-for-complex-data)
     - [Topological Data Analysis for Scientific Visualization](#topological-data-analysis-for-scientific-visualization )
     - [Topological Methods in Data Analysis and Visualization](#topological-methods-in-data-analysis-and-visualization)
@@ -56,10 +58,12 @@ awesome-TDA is under development!
     - [Spark Mapper](#spark-mapper)
     - [Spark-tda](#spark-tda)
 - [Useful Links](#useful-links)
+  - [A concrete application of Topological Data Analysis](#a-concrete-application-of-topological-data-analysis)
+  - [A roadmap for the computation of persistent homology](#a-roadmap-for-the-computation-of-persistent-homology)
+  - [Practical Guide to Persistent Homology](#practical-Guide-to-Persistent-Homology)
   - [TDA and Data Professionals](#tda-and-data-professionals)
   - [TDA and Deep Learning](#tda-and-deep-learning)
   - [TDA and Machine Learning](#tda-and-machine-learning)
-  - [A roadmap for the computation of persistent homology](#a-roadmap-for-the-computation-of-persistent-homology)
 - [License](#license)
 
 <!--lint enable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
@@ -78,9 +82,19 @@ awesome-TDA is under development!
 #### Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions
 
 ### Articles
-#### An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists
+
+#### A User’s Guide to Topological Data Analysis - Elizabeth Munch
+  [read online](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) - ABSTRACT: Topological data analysis (TDA) is a collection of powerful tools that can quantify shape and structure in data in order to answer questions from the data’s domain. This is done by representing some aspect of the structure of the data in a simplified topological signature. In this article, we introduce two of the most commonly used topological signatures. First, the persistence diagram represents loops and holes in the space by considering connectivity of the data points for a continuum of values rather than a single fixed value. The second topological signature, the mapper graph, returns a 1-dimensional structure representing the shape of the data, and is particularly good for exploration and visualization of the data. While these techniques are based on very sophisticated mathematics, the current ubiquity of available software means that these tools are more accessible than ever to be applied to data by researchers in education and learning, as well as all domain scientists.
+  
+#### An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists - Chazal, Michel
   [Pdf](https://arxiv.org/pdf/1710.04019.pdf) - Abstract: Topological Data Analysis (tda) is a recent and fast growing field providing a set of new topological and geometric tools to infer relevant features for possibly complex data. This paper is a brief introduction, through a few selected topics, to basic fundamental and practical aspects of tda for non experts.
 
+#### Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau]
+  [pdf](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)- Abstract: We present a short tutorial and introduction to using the R package TDA, which provides some tools for Topological Data Analysis. In particular, it includes implementations
+of functions that, given some data, provide topological information about the underlying space, such as the distance function, the distance to a measure, the kNN density estimator, the kernel density estimator, and the kernel distance. The salient topological features of the sublevel sets (or superlevel sets) of these functions can be quantified with persistent homology. We provide an R interface for the efficient algorithms of the C++ libraries GUDHI, Dionysus, and PHAT, including a function for the persistent homology of the Rips filtration, and one for the persistent homology of sublevel sets (or superlevel sets)
+of arbitrary functions evaluated over a grid of points. The significance of the features in the resulting persistence diagrams can be analyzed with functions that implement the methods discussed in Fasy, Lecci, Rinaldo, Wasserman, Balakrishnan, and Singh (2014), Chazal, Fasy, Lecci, Rinaldo, and Wasserman (2014c) and Chazal, Fasy, Lecci, Michel,
+Rinaldo, and Wasserman (2014a). The R package TDA also includes the implementation of an algorithm for density clustering, which allows us to identify the spatial organization of the probability mass associated to a density function and visualize it by means of a dendrogram, the cluster tree.
+  
 #### Homological Algebra and Data - Robert Ghrist
   [Pdf](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf) - Abstract: These  lectures  are  a  quick  primer  on  the  basics  of  applied  algebraic topology with emphasis on applications to data. In particular, the perspectives of (elementary) homological algebra, in the form of complexes and co/homological invariants are sketched. Beginning with simplicial and cell complexes as a means of enriching graphs to higher-order structures, we define simple algebraic topological invariants, such as Euler characteristic.  By lifting from complexes of simplices to algebraic complexes of vector spaces, we pass to homology as a topological compression scheme.  Iterating this process of expanding to sequences and compressing via homological algebra, we define persistent homology and related theories, ending with a simple approach to cellular sheaves and their cohomology. Throughout, an emphasis is placed on expressing homological-algebraic tools as
 the natural evolution of linear algebra. Category-theoretic language (though morenatural and expressive) is deemphasized, for the sake of access.  Along the way, sample applications of these techniques are sketched,  in domains ranging from neuroscience to sensing, image analysis, robotics, and computation.
@@ -88,11 +102,9 @@ the natural evolution of linear algebra. Category-theoretic language (though mor
 #### Topological Data Analysis - Larry Wasserman 
   [Pdf](https://arxiv.org/pdf/1609.08227.pdf) - Abstract: Topological Data Analysis (TDA) can broadly be described as a collection of data analysis methods that find structure in data.  This includes: clustering, manifold estimation, nonlinear dimension reduction, mode estimation, ridge estimation and persistent homology.  This paper reviews some of these methods. 
 
-#### Topological Data Analysis for Object Data - Patrangenaru,Bubenik,Paige,Osborne
+#### Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne
   [Pdf](https://arxiv.org/pdf/1804.10255.pdf) - Abstract: Statistical analysis on object data presents many challenges.  Basic summaries such as means and variances are difficult to compute.  We apply ideas from topology to study object data.  We present a framework for using persistence landscapes to vectorize object data and perform statistical analysis. We apply to this pipeline to some biological images that were previously shown to be challenging to study using shape theory. Surprisingly, the most persistent features are shown to be “topological noise” and the statistical analysis depends on the less persistent features which we refer to as the “geometric signal”. We also describe the first steps to a new approach to using topology for object data analysis,  which applies topology to distributions on object spaces
   
-#### A User’s Guide to Topological Data Analysis
-  [read online](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) - ABSTRACT. Topological data analysis (TDA) is a collection of powerful tools that can quantify shape and structure in data in order to answer questions from the data’s domain. This is done by representing some aspect of the structure of the data in a simplified topological signature. In this article, we introduce two of the most commonly used topological signatures. First, the persistence diagram represents loops and holes in the space by considering connectivity of the data points for a continuum of values rather than a single fixed value. The second topological signature, the mapper graph, returns a 1-dimensional structure representing the shape of the data, and is particularly good for exploration and visualization of the data. While these techniques are based on very sophisticated mathematics, the current ubiquity of available software means that these tools are more accessible than ever to be applied to data by researchers in education and learning, as well as all domain scientists.
   
 ### Books
 #### A Short Course in Computational Geometry and Topology
@@ -249,6 +261,16 @@ Current packages available:
  For more information you can read ["Sparse-TDA: Sparse Realization of Topological Data Analysis for Multi-Way Classification"](https://arxiv.org/pdf/1701.03212.pdf) article.
   
 ## Useful Links
+
+### A concrete application of Topological Data Analysis
+- [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
+
+### A roadmap for the computation of persistent homology
+- [A roadmap for the computation of persistent homology](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-017-0109-5#Sec34)
+
+### Practical Guide to Persistent Homology
+- [Practical Guide to Persistent Homology](http://www.mrzv.org/software/dionysus2/tutorial/index.html)
+
 ### TDA and Data Professionals
 - [Topological Data Analysis for Data Professionals](https://www.kdnuggets.com/2018/01/topological-data-analysis.html)
 
@@ -262,8 +284,7 @@ Current packages available:
 - [How TDA and Machine Learning Enhance Each Other](https://www.ayasdi.com/blog/bigdata/how-tda-and-machine-learning-enhance-each-other/)
 
 - [Topological Machine Learning](https://www.sthu.org/research/topmachinelearning/)
-### A roadmap for the computation of persistent homology
-- [A roadmap for the computation of persistent homology](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-017-0109-5#Sec34)
+
 
 ## License
 
