@@ -1,6 +1,6 @@
 # awesome-TDA
 
-A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) resources and links. In applied mathematics, topological data analysis (TDA) is an approach to the analysis of datasets using techniques from topology. under development!
+A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis) resources and links. In applied mathematics, topological data analysis (TDA) is an approach to the analysis of datasets using techniques from topology. under development!
 
 ## Contents
 
@@ -27,7 +27,7 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
   - [Python](#python)
     - [KeplerMapper](#keplermapper)
     - [kohonen](#kohonen)
-    - [openTDA](#opentda)
+    - [openTDA](#opentdpdfa)
     - [Python Mapper](#python-mapper)
     - [Scikit-TDA](#scikit-tda)
     - [scTDA](#sctda)
@@ -65,7 +65,7 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
 * A Short Course in Computational Geometry and Topology - Edelsbrunner, Herbert [springer link](https://www.springer.com/gp/book/9783319059563)
 
 * Persistence Theory: From Quiver Representations to Data Analysis - Steve Y. Oudot [Online](https://bookstore.ams.org/surv-209/) [PDF](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf)
-
+F
 * Topological and Statistical Methods for Complex Data: Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces -  Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.) [springer link](https://www.springer.com/gp/book/9783662448991)  
   
 * Topological Data Analysis for Scientific Visualization - Tierny, Julien [springer link](https://www.springer.com/gp/book/9783319715063) 
@@ -87,9 +87,9 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
   
 * An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists - Chazal, Michel [arxiv](https://arxiv.org/abs/1710.04019) 
   
-* Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau] [pdf](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)
+* Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau] [PDF](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)
   
-* Homological Algebra and Data - Robert Ghrist [Pdf](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf)
+* Homological Algebra and Data - Robert Ghrist [PDF](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf)
   
 * Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport -  Lacombe, Cuturi, OUDOT [arxiv](https://arxiv.org/abs/1805.08331)
   
@@ -102,7 +102,10 @@ A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wik
 ### Courses
 - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful
 
-- [Topological Data Analysis](hhttp://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful
+- [Topological Data Analysis](http://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful
+
+- [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/)
+
 ### Other lists
 
 ## Tools
