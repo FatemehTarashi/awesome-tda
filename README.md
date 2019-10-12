@@ -1,36 +1,15 @@
 # awesome-TDA
 
-A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) resources and links.
-awesome-TDA is under development!
+A curated list of [topological data analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) resources and links. In applied mathematics, topological data analysis (TDA) is an approach to the analysis of datasets using techniques from topology. under development!
+
 ## Contents
 
 <!--lint disable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
 
 - [Theory](#theory)
-  - [Algorithms](#algorithms)
-    - [Morse-Smale complex](#morse-smale-complex)
-    - [Persistent homology computation](#persistent-homology-computation)
-    - [Persistent cohomology computation](#persistent-cohomology-computation)
-    - [Reeb graph](#reeb-graph)
-    - [Vineyards](#vineyards)
-    - [Zigzag persistent homology ](#zigzag-persistent-homology )
-  - [Articles](#articles)
-    - [A User’s Guide to Topological Data Analysis - Elizabeth Munch](#a-users-guide-to-topological-data-analysis-elizabeth-munch)
-    - [An introduction to Topological Data Analysis: fundamental and practical aspects for data scientists - Chazal, Michel](#an-introduction-to-Topological-Data-Analysis-fundamental-and-practical-aspects)
-    - [Homological Algebra and Data - Robert Ghrist](#homological-algebra-and-data-robert-ghrist)
-    - [Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau](#introduction-to-the-r-package-tda)
-    - [Topological Data Analysis - Larry Wasserman](#topological-data-analysis-larry-wasserman)
-    - [Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne](#topological-data-analysis-for-object-data)
-  
+  - [Algorithms](#algorithms) 
   - [Books](#books)
-    - [A Short Course in Computational Geometry and Topology](#a-short-course-in-computational-geometry-and-topology)
-    - [Topological and Statistical Methods for Complex Data](#topological-and-statistical-methods-for-complex-data)
-    - [Topological Data Analysis for Scientific Visualization](#topological-data-analysis-for-scientific-visualization )
-    - [Topological Methods in Data Analysis and Visualization](#topological-methods-in-data-analysis-and-visualization)
-    - [Topological Methods in Data Analysis and Visualization-II](#topological-methods-in-data-analysis-and-visualization-II )
-    - [Topological Methods in Data Analysis and Visualization-III](#topological-methods-in-data-analysis-and-visualization-III)
-    - [Topological Methods in Data Analysis and Visualization-IV](#topological-methods-in-data-analysis-and-visualization-IV )
-    - [Topology-based Methods in Visualization](#topology-based-methods-in-visualization)
+  - [Articles](#articles)
   - [Courses](#courses)
   - [Other lists](#other-lists)
 - [Tools](#tools)
@@ -73,90 +52,52 @@ awesome-TDA is under development!
 ## Theory
 
 ### Algorithms
-#### Morse-Smale complex
-#### Persistent homology computation
-#### Persistent cohomology computation
-#### Reeb graph
-#### Vineyards
-#### Zigzag persistent homology
-#### Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions
-
-### Articles
-
-#### A User’s Guide to Topological Data Analysis - Elizabeth Munch
-  [read online](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) - ABSTRACT: Topological data analysis (TDA) is a collection of powerful tools that can quantify shape and structure in data in order to answer questions from the data’s domain. This is done by representing some aspect of the structure of the data in a simplified topological signature. In this article, we introduce two of the most commonly used topological signatures. First, the persistence diagram represents loops and holes in the space by considering connectivity of the data points for a continuum of values rather than a single fixed value. The second topological signature, the mapper graph, returns a 1-dimensional structure representing the shape of the data, and is particularly good for exploration and visualization of the data. While these techniques are based on very sophisticated mathematics, the current ubiquity of available software means that these tools are more accessible than ever to be applied to data by researchers in education and learning, as well as all domain scientists.
-  
-#### An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists - Chazal, Michel
-  [Pdf](https://arxiv.org/pdf/1710.04019.pdf) - Abstract: Topological Data Analysis (tda) is a recent and fast growing field providing a set of new topological and geometric tools to infer relevant features for possibly complex data. This paper is a brief introduction, through a few selected topics, to basic fundamental and practical aspects of tda for non experts.
-
-#### Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau]
-  [pdf](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)- Abstract: We present a short tutorial and introduction to using the R package TDA, which provides some tools for Topological Data Analysis. In particular, it includes implementations
-of functions that, given some data, provide topological information about the underlying space, such as the distance function, the distance to a measure, the kNN density estimator, the kernel density estimator, and the kernel distance. The salient topological features of the sublevel sets (or superlevel sets) of these functions can be quantified with persistent homology. We provide an R interface for the efficient algorithms of the C++ libraries GUDHI, Dionysus, and PHAT, including a function for the persistent homology of the Rips filtration, and one for the persistent homology of sublevel sets (or superlevel sets)
-of arbitrary functions evaluated over a grid of points. The significance of the features in the resulting persistence diagrams can be analyzed with functions that implement the methods discussed in Fasy, Lecci, Rinaldo, Wasserman, Balakrishnan, and Singh (2014), Chazal, Fasy, Lecci, Rinaldo, and Wasserman (2014c) and Chazal, Fasy, Lecci, Michel,
-Rinaldo, and Wasserman (2014a). The R package TDA also includes the implementation of an algorithm for density clustering, which allows us to identify the spatial organization of the probability mass associated to a density function and visualize it by means of a dendrogram, the cluster tree.
-  
-#### Homological Algebra and Data - Robert Ghrist
-  [Pdf](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf) - Abstract: These  lectures  are  a  quick  primer  on  the  basics  of  applied  algebraic topology with emphasis on applications to data. In particular, the perspectives of (elementary) homological algebra, in the form of complexes and co/homological invariants are sketched. Beginning with simplicial and cell complexes as a means of enriching graphs to higher-order structures, we define simple algebraic topological invariants, such as Euler characteristic.  By lifting from complexes of simplices to algebraic complexes of vector spaces, we pass to homology as a topological compression scheme.  Iterating this process of expanding to sequences and compressing via homological algebra, we define persistent homology and related theories, ending with a simple approach to cellular sheaves and their cohomology. Throughout, an emphasis is placed on expressing homological-algebraic tools as
-the natural evolution of linear algebra. Category-theoretic language (though morenatural and expressive) is deemphasized, for the sake of access.  Along the way, sample applications of these techniques are sketched,  in domains ranging from neuroscience to sensing, image analysis, robotics, and computation.
-
-#### Topological Data Analysis - Larry Wasserman 
-  [Pdf](https://arxiv.org/pdf/1609.08227.pdf) - Abstract: Topological Data Analysis (TDA) can broadly be described as a collection of data analysis methods that find structure in data.  This includes: clustering, manifold estimation, nonlinear dimension reduction, mode estimation, ridge estimation and persistent homology.  This paper reviews some of these methods. 
-
-#### Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne
-  [Pdf](https://arxiv.org/pdf/1804.10255.pdf) - Abstract: Statistical analysis on object data presents many challenges.  Basic summaries such as means and variances are difficult to compute.  We apply ideas from topology to study object data.  We present a framework for using persistence landscapes to vectorize object data and perform statistical analysis. We apply to this pipeline to some biological images that were previously shown to be challenging to study using shape theory. Surprisingly, the most persistent features are shown to be “topological noise” and the statistical analysis depends on the less persistent features which we refer to as the “geometric signal”. We also describe the first steps to a new approach to using topology for object data analysis,  which applies topology to distributions on object spaces
-  
+* Morse-Smale complex
+* Persistent homology computation
+* Persistent cohomology computation
+* Reeb graph
+* Vineyards
+* Zigzag persistent homology
+* Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions
   
 ### Books
-#### A Short Course in Computational Geometry and Topology
-   Authors: Edelsbrunner, Herbert [springer link](https://www.springer.com/gp/book/9783319059563)
-   - This monograph presents a short course in computational geometry and topology. In the first part the book covers Voronoi diagrams and Delaunay triangulations, then it presents the theory of alpha complexes which play a crucial role in biology. The central part of the book is the homology theory and their computation, including the theory of persistence which is indispensable for applications, e.g. shape reconstruction. The target audience comprises researchers and practitioners in mathematics, biology, neuroscience and computer science, but the book may also be beneficial to graduate students of these fields.
-
-#### Topological and Statistical Methods for Complex Data
-  Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces -  Editors: Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.) [springer link](https://www.springer.com/gp/book/9783662448991)  
-  
-  - This book contains papers presented at the Workshop on the Analysis of Large-scale, High-Dimensional, and Multi-Variate Data Using Topology and Statistics, held in Le Barp, France, June 2013. It features the work of some of the most prominent and recognized leaders in the field who examine challenges as well as detail solutions to the analysis of extreme scale data.
-  
-    The book presents new methods that leverage the mutual strengths of both topological and statistical techniques to support the management, analysis, and visualization of complex data. It covers both theory and application and provides readers with an overview of important key concepts and the latest research trends.
-
-    Coverage in the book includes multi-variate and/or high-dimensional analysis techniques, feature-based statistical methods, combinatorial algorithms, scalable statistics algorithms, scalar and vector field topology, and multi-scale representations. In addition, the book details algorithms that are broadly applicable and can be used by application scientists to glean insight from a wide range of complex data sets.
-    
-#### Topological Data Analysis for Scientific Visualization
-  Authors: Tierny, Julien [springer link](https://www.springer.com/gp/book/9783319715063) 
-   - Combining theoretical and practical aspects of topology, this book provides a comprehensive and self-contained introduction to topological methods for the analysis and visualization of scientific data.
-
-     Theoretical concepts are presented in a painstaking but intuitive manner, with numerous high-quality color illustrations. Key algorithms for the computation and simplification of topological data representations are described in detail, and their application is carefully demonstrated in a chapter dedicated to concrete use cases.
-
-     With its fine balance between theory and practice, "Topological Data Analysis for Scientific Visualization" constitutes an appealing introduction to the increasingly important topic of topological data analysis for lecturers, students and researchers.
-
-#### Topological Methods in Data Analysis and Visualization
-  Theory, Algorithms, and Applications - Editors: Pascucci, V., Tricoche, X., Hagen, H., Tierny, J. (Eds.) [springer link](https://www.springer.com/gp/book/9783642150135)
-   - Topology-based methods are of increasing importance in the analysis and visualization of datasets from a wide variety of scientific domains such as biology, physics, engineering, and medicine. Current challenges of topology-based techniques include the management of time-dependent data, the representation large and complex datasets, the characterization of noise and uncertainty, the effective integration of numerical methods with robust combinatorial algorithms, etc. While there is an increasing number of high-quality publications in this field, many fundamental questions remain unsolved. New focused efforts are needed in a variety of techniques ranging from the theoretical foundations of topological models, algorithmic issues related to the representation power of computer-based implementations as well as their computational efficiency, user interfaces for presentation of quantitative topological information, and the development of new techniques for systematic mapping of science problems in topological constructs that can be solved computationally. The editors have brought together the most prominent and best recognized researchers in the field of topology-based data analysis and visualization for a joint discussion and scientific exchange of the latest results in the field. The 2009 "TopoInVis" workshop in Snowbird, Utah, follows the two successful workshops in 2005 (Budmerice, Slovakia) and 2007 (Leipzig, Germany).
    
-#### Topological Methods in Data Analysis and Visualization-II
-  Theory, Algorithms, and Applications - Editors: Peikert, R., Hauser, H., Carr, H., Fuchs, R. (Eds.) [springer link](https://www.springer.com/gp/book/9783642231742) 
-   - When scientists analyze datasets in a search for underlying phenomena, patterns or causal factors, their first step is often an automatic or semi-automatic search for structures in the data. Of these feature-extraction methods, topological ones stand out due to their solid mathematical foundation. Topologically defined structures—as found in scalar, vector and tensor fields—have proven their merit in a wide range of scientific domains, and scientists have found them to be revealing in subjects such as physics, engineering, and medicine.
+* A Short Course in Computational Geometry and Topology - Edelsbrunner, Herbert [springer link](https://www.springer.com/gp/book/9783319059563)
+
+* Persistence Theory: From Quiver Representations to Data Analysis - Steve Y. Oudot [Online](https://bookstore.ams.org/surv-209/) [PDF](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf)
+
+* Topological and Statistical Methods for Complex Data: Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces -  Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.) [springer link](https://www.springer.com/gp/book/9783662448991)  
   
-     Full of state-of-the-art research and contemporary hot topics in the subject, this volume is a selection of peer-reviewed papers originally presented at the fourth Workshop on Topology-Based Methods in Data Analysis and Visualization, TopoInVis 2011, held in Zurich, Switzerland. The workshop brought together many of the leading lights in the field for a mixture of formal presentations and discussion. One topic currently generating a great deal of interest, and explored in several chapters here, is the search for topological structures in time-dependent flows, and their relationship with Lagrangian coherent structures. Contributors also focus on discrete topologies of scalar and vector fields, and on persistence-based simplification, among other issues of note. The new research results included in this volume relate to all three key areas in data analysis—theory, algorithms and applications.
+* Topological Data Analysis for Scientific Visualization - Tierny, Julien [springer link](https://www.springer.com/gp/book/9783319715063) 
 
-#### Topological Methods in Data Analysis and Visualization-III
-  Theory, Algorithms, and Applications - Editors: Bremer, P.-T., Hotz, I., Pascucci, V., Peikert, R. (Eds.) [springer link](https://www.springer.com/gp/book/9783319040981) 
-   - his collection of peer-reviewed conference papers provides comprehensive coverage of cutting-edge research in topological approaches to data analysis and visualization. It encompasses the full range of new algorithms and insights, including fast homology computation, comparative analysis of simplification techniques, and key applications in materials and medical science. The volume also features material on core research challenges such as the representation of large and complex datasets and integrating numerical methods with robust combinatorial algorithms.
+* Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications - Pascucci, V., Tricoche, X., Hagen, H., Tierny, J. (Eds.) [springer link](https://www.springer.com/gp/book/9783642150135)
+   
+* Topological Methods in Data Analysis and Visualization-II: Theory, Algorithms, and Applications - Peikert, R., Hauser, H., Carr, H., Fuchs, R. (Eds.) [springer link](https://www.springer.com/gp/book/9783642231742) 
+ 
+* Topological Methods in Data Analysis and Visualization-III: Theory, Algorithms, and Applications - Bremer, P.-T., Hotz, I., Pascucci, V., Peikert, R. (Eds.) [springer link](https://www.springer.com/gp/book/9783319040981) 
+  
+* Topological Methods in Data Analysis and Visualization-IV: Theory, Algorithms, and Applications - Carr, Hamish, Garth, Christoph, Weinkauf, Tino (Eds.) [springer link](https://www.springer.com/gp/book/9783319446820)
+  
+* Topology-based Methods in Visualization-  Hauser, Helwig, Hagen, Hans, Theisel, Holger (Eds.) [springer link](https://www.springer.com/gp/book/9783540708223)
+  
+### Articles
+* A Fuzzy Clustering Algorithm for the Mode Seeking Framework - Bonis, Oudot [arxiv](https://arxiv.org/abs/1406.7130)
 
-     Reflecting the focus of the TopoInVis 2013 conference, the contributions evince the progress currently being made on finding experimental solutions to open problems in the sector. They provide an inclusive snapshot of state-of-the-art research that enables researchers to keep abreast of the latest developments and provides a foundation for future progress. With papers by some of the world’s leading experts in topological techniques, this volume is a major contribution to the literature in a field of growing importance with applications in disciplines that range from engineering to medicine.
- #### Topological Methods in Data Analysis and Visualization-IV
-  Theory, Algorithms, and Applications -  Editors: Carr, Hamish, Garth, Christoph, Weinkauf, Tino (Eds.) [springer link](https://www.springer.com/gp/book/9783319446820)
-   - This book presents contributions on topics ranging from novel applications of topological analysis for particular problems, through studies of the effectiveness of modern topological methods, algorithmic improvements on existing methods, and parallel computation of topological structures, all the way to mathematical topologies not previously applied to data analysis.
+* A User’s Guide to Topological Data Analysis - Elizabeth Munch [read online](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) 
+  
+* An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists - Chazal, Michel [arxiv](https://arxiv.org/abs/1710.04019) 
+  
+* Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau] [pdf](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)
+  
+* Homological Algebra and Data - Robert Ghrist [Pdf](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf)
+  
+* Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport -  Lacombe, Cuturi, OUDOT [arxiv](https://arxiv.org/abs/1805.08331)
+  
+* Topological Data Analysis - Larry Wasserman [arxiv](https://arxiv.org/abs/1609.08227) 
 
-     Topological methods are broadly recognized as valuable tools for analyzing the ever-increasing flood of data generated by simulation or acquisition. This is particularly the case in scientific visualization, where the data sets have long since surpassed the ability of the human mind to absorb every single byte of data.
+* Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne [arxiv](https://arxiv.org/abs/1804.10255) 
 
-     The biannual TopoInVis workshop has supported researchers in this area for a decade, and continues to serve as a vital forum for the presentation and discussion of novel results in applications in the area, creating a platform to disseminate knowledge about such implementations throughout and beyond the community.
-
-     The present volume, resulting from the 2015 TopoInVis workshop held in Annweiler, Germany, will appeal to researchers in the fields of scientific visualization and mathematics, domain scientists with an interest in advanced visualization methods, and developers of visualization software systems.
-
-#### Topology-based Methods in Visualization
-  Editors: Hauser, Helwig, Hagen, Hans, Theisel, Holger (Eds.) [springer link](https://www.springer.com/gp/book/9783540708223)
-   - Enabling insight into large and complex datasets is a prevalent theme in visualization research for which different approaches are pursued.
-     Topology-based methods are built on the idea of abstracting characteristic structures such as the topological skeleton from the data and to construct the visualizations accordingly. There are currently new demands for and renewed interest in topology-based visualization solutions. This book presents 13 peer-reviewed papers as written results from the 2005 workshop “Topology-Based Methods in Visualization” that was initiated to enable additional stimulation in this field. It contains a longer chapter dedicated to a survey of the state-of-the-art, as well as a great deal of original work by leading experts that has not been published before, spanning both theory and applications. It captures key concepts and novel ideas and serves as an overview of current trends in topology-based visualization research.
+* Two-Tier Mapper: a user-independent clustering method for global gene expression analysis based on topology [arxiv](https://arxiv.org/abs/1801.01841) 
 
 ### Courses
 - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful
