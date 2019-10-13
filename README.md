@@ -21,25 +21,31 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
     - [Dionysus](#dionysus)
     - [GUDHI](#gudhi)
     - [PHAT](#phat)
+    - [RIVET](#rivet)
     - [TDA](#tda)
+  - [Haskell](#haskell)
+    - [Persistence](#persistence)
   - [Java](#java)
     - [JavaPlex](#javaplex)
   - [Python](#python)
     - [KeplerMapper](#keplermapper)
     - [kohonen](#kohonen)
+    - [Mapper implementation TDA](#mapper-implementation-tda)
+    - [mogutda](#mogutda)
     - [openTDA](#opentdpdfa)
     - [Python Mapper](#python-mapper)
     - [Scikit-TDA](#scikit-tda)
     - [scTDA](#sctda)
   - [R](#r)
     - [TDAmapper](#tdamapper)
+    - [TDAstats](#tdastats)
   - [Spark](#spark)
     - [Spark Mapper](#spark-mapper)
     - [Spark-tda](#spark-tda)
 - [Useful Links](#useful-links)
   - [A concrete application of Topological Data Analysis](#a-concrete-application-of-topological-data-analysis)
-  - [A roadmap for the computation of persistent homology](#a-roadmap-for-the-computation-of-persistent-homology)
-  - [Practical Guide to Persistent Homology](#practical-Guide-to-Persistent-Homology)
+  - [Computing Homology](#computing-homology)
+  - [Persistent Homology](#persistent-homology)
   - [TDA and Data Professionals](#tda-and-data-professionals)
   - [TDA and Deep Learning](#tda-and-deep-learning)
   - [TDA and Machine Learning](#tda-and-machine-learning)
@@ -81,12 +87,15 @@ F
 * Topology-based Methods in Visualization-  Hauser, Helwig, Hagen, Hans, Theisel, Holger (Eds.) [springer link](https://www.springer.com/gp/book/9783540708223)
   
 ### Articles
+
 * A Fuzzy Clustering Algorithm for the Mode Seeking Framework - Bonis, Oudot [arxiv](https://arxiv.org/abs/1406.7130)
 
 * A User’s Guide to Topological Data Analysis - Elizabeth Munch [read online](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) 
   
 * An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists - Chazal, Michel [arxiv](https://arxiv.org/abs/1710.04019) 
-  
+
+* Computing Persistent Homology (Discrete and Computational Geometry) - Zomorodian, Carlsson [PDF](https://geometry.stanford.edu/papers/zc-cph-05/zc-cph-05.pdf)
+
 * Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau] [PDF](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)
   
 * Homological Algebra and Data - Robert Ghrist [PDF](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf)
@@ -147,8 +156,17 @@ For more information you can read ["Topological Data Analysis Made Easy with the
   - The "chunk" algorithm 
   - The "spectral sequence" algorithm 
   
+#### RIVET
+[RIVET](https://github.com/rivetTDA/rivet) - for the visualization and analysis of two-parameter persistent homology. RIVET is made available under the under the terms of the GNU General Public License. The RIVET documentation lives [here](https://rivet.readthedocs.io).
+  
 #### TDA
 [TDA](https://cran.r-project.org/web/packages/TDA/) - tools for the statistical analysis of persistent homology and for density clustering. For that, this package provides an R interface for the efficient algorithms of the C++ libraries [GUDHI](http://gudhi.gforge.inria.fr/), [Dionysus](http://www.mrzv.org/software/dionysus/), and [PHAT](https://bitbucket.org/phat-code/phat/). This package also implements the methods in Fasy et al. [(2014)](doi:10.1214/14-AOS1252) and Chazal et al. [(2014)](doi:10.1145/2582112.2582128) for analyzing the statistical significance of persistent homology features.
+
+
+### Haskell 
+#### Persistence
+[Persistence](https://hackage.haskell.org/package/Persistence) - A topological data analysis library motivated by flexibility when it comes to the type of data being analyzed. If your data comes with a meaningful binary function into an ordered set, you can use Persistence to analyze your data. The library also provides functions for analyzing directed/undirected, weighted/unweighted graphs. See the README for resources on learning about topological data anlysis.
+
 
 ### Java
 #### JavaPlex
@@ -163,6 +181,9 @@ KeplerMapper can make use of Scikit-Learn API compatible cluster and scaling alg
 #### kohonen
 [kohonen](https://github.com/lmjohns3/kohonen) - This module contains some basic implementations of Kohonen-style vector quantizers: Self-Organizing Map (SOM), Neural Gas, and Growing Neural Gas. Kohonen-style vector quantizers use some sort of explicitly specified topology to encourage good separation among prototype "neurons".
 
+#### Mapper implementation TDA
+[Mapper implementation](https://github.com/ksanjeevan/mapper-tda) - Topological Data Analysis for high dimensional dataset exploration
+
 #### mogutda
 [mogutda](https://github.com/stephenhky/MoguTDA) - mogutda contains Python codes that demonstrate the numerical calculation of algebraic topology in an application to topological data analysis (TDA). Its core code is the numerical methods concerning implicial complex, and the estimation of homology and Betti numbers. mogutda runs in Python 2.7, 3.5, and 3.6.
 
@@ -170,7 +191,7 @@ KeplerMapper can make use of Scikit-Learn API compatible cluster and scaling alg
 [openTDA](https://github.com/outlace/OpenTDA) - Open source Python library for topological data analysis (TDA)
 
 #### Python Mapper
-[Python Mapper](http://danifold.net/mapper/introduction.html)Python Mapper is a realization of this toolchain, written by Daniel Müllner and Aravindakshan Babu. It is open source software and is released under the GNU GPLv3 license. 
+[Python Mapper](http://danifold.net/mapper/introduction.html) - Python Mapper is a realization of this toolchain, written by Daniel Müllner and Aravindakshan Babu. It is open source software and is released under the GNU GPLv3 license. 
 There is also a company, Ayasdi, which was founded by Gurjeet Singh, Gunnar Carlsson and Harlan Sexton and whose main product, the [Ayasdi Iris software](https://www.ayasdi.com/solutions/clinical-variation-management/), has the Mapper algorithm at its core. Ayasdi also issues academic trial licenses.
 
 #### Scikit-TDA
@@ -189,6 +210,9 @@ Current packages available:
 ### R
 #### TDAmapper
 [TDAmapper](https://github.com/paultpearson/TDAmapper/) - Topological Data Analysis using Mapper - An R package for using discrete Morse theory to analyze a data set using the Mapper algorithm described in G. Singh, F. Memoli, G. Carlsson (2007)
+
+#### TDAstats
+[TDAstats](https://github.com/rrrlw/TDAstats) - TDAstats is an R pipeline for computing persistent homology in topological data analysis.
 
 ### Spark
 #### Spark Mapper
@@ -209,10 +233,12 @@ Current packages available:
 ### A concrete application of Topological Data Analysis
 - [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
 
-### A roadmap for the computation of persistent homology
+### Computing Homology
+- [Computing Homology](https://jeremykun.com/2013/04/10/computing-homology/)
+
+### Persistent Homology
 - [A roadmap for the computation of persistent homology](https://epjdatascience.springeropen.com/articles/10.1140/epjds/s13688-017-0109-5#Sec34)
 
-### Practical Guide to Persistent Homology
 - [Practical Guide to Persistent Homology](http://www.mrzv.org/software/dionysus2/tutorial/index.html)
 
 ### TDA and Data Professionals
@@ -224,6 +250,7 @@ Current packages available:
 - [On Characterizing the Capacity of Neural Networks Using Algebraic Topology](https://openreview.net/forum?id=H11lAfbCW)
 
 - [Using Topological Data Analysis to Understand the Behavior of Convolutional Neural Networks](https://www.ayasdi.com/blog/artificial-intelligence/using-topological-data-analysis-understand-behavior-convolutional-neural-networks/)
+
 ### TDA and Machine Learning
 - [How TDA and Machine Learning Enhance Each Other](https://www.ayasdi.com/blog/bigdata/how-tda-and-machine-learning-enhance-each-other/)
 
