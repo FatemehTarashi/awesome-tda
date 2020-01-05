@@ -49,6 +49,7 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
   - [TDA and Data Professionals](#tda-and-data-professionals)
   - [TDA and Deep Learning](#tda-and-deep-learning)
   - [TDA and Machine Learning](#tda-and-machine-learning)
+- [Event](#event)
 - [License](#license)
 
 <!--lint enable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
@@ -96,7 +97,9 @@ F
 
 * Computing Persistent Homology (Discrete and Computational Geometry) - Zomorodian, Carlsson [PDF](https://geometry.stanford.edu/papers/zc-cph-05/zc-cph-05.pdf)
 
-* Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau] [PDF](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)
+* Deep Learning with Topological Signatures - Hofer, Kwitt, Niethammer, Uhl[PDF](https://papers.nips.cc/paper/6761-deep-learning-with-topological-signatures.pdf)
+
+* Introduction to the R package TDA - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau [PDF](cran.r-project.org/web/packages/TDA/vignettes/article.pdf)
   
 * Homological Algebra and Data - Robert Ghrist [PDF](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf)
   
@@ -107,6 +110,8 @@ F
 * Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne [arxiv](https://arxiv.org/abs/1804.10255) 
 
 * Two-Tier Mapper: a user-independent clustering method for global gene expression analysis based on topology [arxiv](https://arxiv.org/abs/1801.01841) 
+
+* Why Topology for Machine Learning and Knowledge Extraction? - Massimo Ferri [PDF](https://res.mdpi.com/d_attachment/make/make-01-00006/article_deploy/make-01-00006.pdf)
 
 ### Courses
 - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful
@@ -245,6 +250,8 @@ Current packages available:
 - [Topological Data Analysis for Data Professionals](https://www.kdnuggets.com/2018/01/topological-data-analysis.html)
 
 ### TDA and Deep Learning
+- [Applied Topological Data Analysis to Deep Learning? Hands-on Arrhythmia Classification!](https://towardsdatascience.com/applied-topological-data-analysis-to-deep-learning-hands-on-arrhythmia-classification-48993d78f9e6)
+
 - [From Topological Data Analysis to Deep Learning: No Pain No Gain](https://towardsdatascience.com/from-tda-to-dl-d06f234f51d)
 
 - [On Characterizing the Capacity of Neural Networks Using Algebraic Topology](https://openreview.net/forum?id=H11lAfbCW)
@@ -254,8 +261,12 @@ Current packages available:
 ### TDA and Machine Learning
 - [How TDA and Machine Learning Enhance Each Other](https://www.ayasdi.com/blog/bigdata/how-tda-and-machine-learning-enhance-each-other/)
 
+- [Topological Methods for Machine Learning](http://topology.cs.wisc.edu/)
+
 - [Topological Machine Learning](https://www.sthu.org/research/topmachinelearning/)
 
+## Event
+- [Conferences and workshops](https://people.clas.ufl.edu/peterbubenik/conferences/)
 
 ## License
 
