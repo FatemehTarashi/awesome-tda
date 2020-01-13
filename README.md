@@ -124,9 +124,13 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
   
 * Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport -  Lacombe, Cuturi, OUDOT [arxiv](https://arxiv.org/abs/1805.08331)
   
+* Text Mining using Topological Data Analysis. An introduction - G. A. Carrazana, C. O. C. Chong [download](https://www.researchgate.net/publication/323705256_Text_Mining_using_Topological_Data_Analysis_An_introduction)
+
 * Topology and Data - Gunnar Carlsson [PDF](https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf)
 
 * Topological Data Analysis - Larry Wasserman [arxiv](https://arxiv.org/abs/1609.08227) 
+
+* Topological Data Analysis and Its Application to Time-Series Data Analysis - Y. Umeda, J. Kaneko, H. Kikuchi [PDF](https://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol55-2/paper15.pdf)
 
 * Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne [arxiv](https://arxiv.org/abs/1804.10255) 
 
