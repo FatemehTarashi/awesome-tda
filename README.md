@@ -16,6 +16,8 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
   - [TdaToolbox](#tdatoolbox)
   - [TTk](#ttk)
 - [Frameworks and Libs](#frameworks-and-libs)
+  - [c](#c)
+    - [clique-top](#clique-top)
   - [C++](#c++)
     - [Ctl](#ctl)
     - [Dionysus](#dionysus)
@@ -23,19 +25,26 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
     - [PHAT](#phat)
     - [RIVET](#rivet)
     - [TDA](#tda)
+  - [go](#go)
+    - [tda](#tda)
   - [Haskell](#haskell)
     - [Persistence](#persistence)
   - [Java](#java)
     - [JavaPlex](#javaplex)
+  - [Julia](#julia)
+    - [TDA.jl](tda.jl)
   - [Python](#python)
+    - [GDA-Public](#gda-public)
     - [KeplerMapper](#keplermapper)
     - [kohonen](#kohonen)
     - [Mapper implementation TDA](#mapper-implementation-tda)
     - [mogutda](#mogutda)
     - [openTDA](#opentdpdfa)
     - [Python Mapper](#python-mapper)
+    - [qsv](#qsv)
     - [Scikit-TDA](#scikit-tda)
     - [scTDA](#sctda)
+    - [tmap](#tmap)
   - [R](#r)
     - [TDAmapper](#tdamapper)
     - [TDAstats](#tdastats)
@@ -135,6 +144,10 @@ For more information you can read ["Topological Data Analysis Made Easy with the
 
 ## Frameworks and Libs
 
+### C
+#### clique-top 
+[clique-top](https://github.com/nebneuron/clique-top) - The clique-top is a collection of matlab scripts for doing topological analysis of symmetric matrices.
+
 ### C++
 #### ctl
 [Ctl](https://github.com/appliedtopology/ctl) - This C++11 library provides a set of generic tools for:
@@ -167,6 +180,20 @@ For more information you can read ["Topological Data Analysis Made Easy with the
 #### TDA
 [TDA](https://cran.r-project.org/web/packages/TDA/) - tools for the statistical analysis of persistent homology and for density clustering. For that, this package provides an R interface for the efficient algorithms of the C++ libraries [GUDHI](http://gudhi.gforge.inria.fr/), [Dionysus](http://www.mrzv.org/software/dionysus/), and [PHAT](https://bitbucket.org/phat-code/phat/). This package also implements the methods in Fasy et al. [(2014)](doi:10.1214/14-AOS1252) and Chazal et al. [(2014)](doi:10.1145/2582112.2582128) for analyzing the statistical significance of persistent homology features.
 
+### GO
+#### tda
+[tda](https://github.com/kshedden/tda) - This package provides support for a few methods from topological data analysis.
+
+Currently, methods for gridded data (images) are provided, including:
+
+    Connected component labeling for binary images
+
+    Object persistence analysis
+
+    Landscape profiles
+
+    Convex hull peels
+
 
 ### Haskell 
 #### Persistence
@@ -177,7 +204,14 @@ For more information you can read ["Topological Data Analysis Made Easy with the
 #### JavaPlex
 [JavaPlex](https://github.com/appliedtopology/javaplex) - Persistent Homology and Topological Data Analysis Library - The JavaPlex library implements persistent homology and related techniques from computational and applied topology, in a library designed for ease of use, ease of access from Matlab and java-based systems, and ease of extensions for further research projects and approaches. JavaPlex is mainly developed by the Computational Topology workgroup at Stanford University, and is based on previous similar packages from the same group.
 
+### Julia 
+#### TDA.jl
+[TDA.jl](https://github.com/wildart/TDA.jl) - This package provides various tools for topological data analysis.
+
 ### Python
+#### GDA-Public
+[gda-public](https://geomdata.github.io/gda-public/) - This package contains several fundamental tools by Geometric Data Analytics Inc. [geomdata](http://www.geomdata.com)
+
 #### KeplerMapper
 [KeplerMapper](https://github.com/MLWave/kepler-mapper) - This is a Python implementation of the TDA Mapper algorithm for visualization of high-dimensional data. For complete documentation, see https://kepler-mapper.scikit-tda.org.
 KeplerMapper employs approaches based on the Mapper algorithm (Singh et al.) as first described in the paper "Topological Methods for the Analysis of High Dimensional Data Sets and 3D Object Recognition".
@@ -199,6 +233,9 @@ KeplerMapper can make use of Scikit-Learn API compatible cluster and scaling alg
 [Python Mapper](http://danifold.net/mapper/introduction.html) - Python Mapper is a realization of this toolchain, written by Daniel Müllner and Aravindakshan Babu. It is open source software and is released under the GNU GPLv3 license. 
 There is also a company, Ayasdi, which was founded by Gurjeet Singh, Gunnar Carlsson and Harlan Sexton and whose main product, the [Ayasdi Iris software](https://www.ayasdi.com/solutions/clinical-variation-management/), has the Mapper algorithm at its core. Ayasdi also issues academic trial licenses.
 
+#### qsv
+[qsv](https://github.com/RottenFruits/qsv) - This application is data structure visualizer by topological data analysis method. This softwear is using [kepler-mapper](https://github.com/FatemehTarashi/awesome-TDA#keplermapper).
+
 #### Scikit-TDA
 [Scikit-TDA](https://scikit-tda.org/) - Scikit-TDA is a home for compatible TDA Python libraries intended for non-topologists. This project aims to provide a curated library of TDA Python tools that are widely usable and easily approachable.
 It is structured so that each package can stand alone or be used as part of the scikit-tda bundle.
@@ -211,6 +248,9 @@ Current packages available:
 
 #### scTDA
 [scTDA](https://github.com/CamaraLab/scTDA) - scTDA is an object oriented python library for topological data analysis of high-throughput single-cell RNA-seq data. It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
+
+#### tmap
+[tmap](https://tmap.readthedocs.org) - tmap is a topological data analysis framework implementing the TDA Mapper algorithm for population-scale microbiome data analysis. it has been developed to enable easy adoption of TDA in microbiome data analysis pipeline, providing network-based statistical methods for enterotype analysis, driver species identification, and microbiome-wide association analysis of host meta-data.
 
 ### R
 #### TDAmapper
@@ -267,6 +307,7 @@ Current packages available:
 
 ## Event
 - [Conferences and workshops](https://people.clas.ufl.edu/peterbubenik/conferences/)
+- [MAY 2020 DATA SCIENCE BOOT CAMPS](https://www.erdosinstitute.org/code) code:[IntroductionToTopologicalDataAnalysis](https://github.com/trneedham/IntroductionToTopologicalDataAnalysis)
 
 ## License
 
