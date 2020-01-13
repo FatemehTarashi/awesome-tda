@@ -80,11 +80,19 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
    
 * A Short Course in Computational Geometry and Topology - Edelsbrunner, Herbert [springer link](https://www.springer.com/gp/book/9783319059563)
 
+* Computational Homology (Applied Mathematical Sciences) -  T. Kaczynski, K. Mischaikow, M. Mrozek [amazon](https://www.amazon.com/dp/1441923543/)
+
+* Computational Topology: An Introduction - Herbert Edelsbrunner, John L. Harer [Online](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf)
+
+* Elementary Applied Topology - Robert Ghrist [Site](https://www.math.upenn.edu/~ghrist/notes.html)
+
 * Persistence Theory: From Quiver Representations to Data Analysis - Steve Y. Oudot [Online](https://bookstore.ams.org/surv-209/) [PDF](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf)
-F
+
 * Topological and Statistical Methods for Complex Data: Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces -  Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.) [springer link](https://www.springer.com/gp/book/9783662448991)  
   
 * Topological Data Analysis for Scientific Visualization - Tierny, Julien [springer link](https://www.springer.com/gp/book/9783319715063) 
+
+* Topology for Computing - Topology for Computing  [PDF](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf)
 
 * Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications - Pascucci, V., Tricoche, X., Hagen, H., Tierny, J. (Eds.) [springer link](https://www.springer.com/gp/book/9783642150135)
    
@@ -104,6 +112,8 @@ F
   
 * An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists - Chazal, Michel [arxiv](https://arxiv.org/abs/1710.04019) 
 
+* Barcodes: The Persistent Topology of Data - Robert Ghrist [PDF](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf)
+
 * Computing Persistent Homology (Discrete and Computational Geometry) - Zomorodian, Carlsson [PDF](https://geometry.stanford.edu/papers/zc-cph-05/zc-cph-05.pdf)
 
 * Deep Learning with Topological Signatures - Hofer, Kwitt, Niethammer, Uhl[PDF](https://papers.nips.cc/paper/6761-deep-learning-with-topological-signatures.pdf)
@@ -114,6 +124,8 @@ F
   
 * Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport -  Lacombe, Cuturi, OUDOT [arxiv](https://arxiv.org/abs/1805.08331)
   
+* Topology and Data - Gunnar Carlsson [PDF](https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf)
+
 * Topological Data Analysis - Larry Wasserman [arxiv](https://arxiv.org/abs/1609.08227) 
 
 * Topological Data Analysis for Object Data - Patrangenaru, Bubenik, Paige, Osborne [arxiv](https://arxiv.org/abs/1804.10255) 
@@ -185,15 +197,10 @@ For more information you can read ["Topological Data Analysis Made Easy with the
 [tda](https://github.com/kshedden/tda) - This package provides support for a few methods from topological data analysis.
 
 Currently, methods for gridded data (images) are provided, including:
-
-    Connected component labeling for binary images
-
-    Object persistence analysis
-
-    Landscape profiles
-
-    Convex hull peels
-
+* Connected component labeling for binary images
+* Object persistence analysis
+* Landscape profiles
+* Convex hull peels
 
 ### Haskell 
 #### Persistence
