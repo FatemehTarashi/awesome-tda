@@ -11,12 +11,11 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
   - [Books](#books)
   - [Articles](#articles)
   - [Courses](#courses)
-  - [Other lists](#other-lists)
 - [Tools](#tools)
   - [TdaToolbox](#tdatoolbox)
   - [TTk](#ttk)
 - [Frameworks and Libs](#frameworks-and-libs)
-  - [c](#c)
+  - [C](#c)
     - [clique-top](#clique-top)
   - [C++](#c++)
     - [Ctl](#ctl)
@@ -24,7 +23,6 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
     - [GUDHI](#gudhi)
     - [PHAT](#phat)
     - [RIVET](#rivet)
-    - [TDA](#tda)
   - [go](#go)
     - [tda](#tda)
   - [Haskell](#haskell)
@@ -46,6 +44,7 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
     - [scTDA](#sctda)
     - [tmap](#tmap)
   - [R](#r)
+    - [TDA](#tda)
     - [TDAmapper](#tdamapper)
     - [TDAstats](#tdastats)
   - [Spark](#spark)
@@ -53,11 +52,13 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
     - [Spark-tda](#spark-tda)
 - [Useful Links](#useful-links)
   - [A concrete application of Topological Data Analysis](#a-concrete-application-of-topological-data-analysis)
+  - [BioTDA](#biotda)
   - [Computing Homology](#computing-homology)
   - [Persistent Homology](#persistent-homology)
   - [TDA and Data Professionals](#tda-and-data-professionals)
   - [TDA and Deep Learning](#tda-and-deep-learning)
   - [TDA and Machine Learning](#tda-and-machine-learning)
+  - [Topological Methods in Brain Network Analysis](#topological-methods-in-brain-network-analysis)
 - [Event](#event)
 - [License](#license)
 
@@ -145,8 +146,6 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
 
 - [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/)
 
-### Other lists
-
 ## Tools
 ### TdaToolbox
 [TdaToolbox](https://github.com/Coricos/TdaToolbox)
@@ -193,9 +192,6 @@ For more information you can read ["Topological Data Analysis Made Easy with the
 #### RIVET
 [RIVET](https://github.com/rivetTDA/rivet) - for the visualization and analysis of two-parameter persistent homology. RIVET is made available under the under the terms of the GNU General Public License. The RIVET documentation lives [here](https://rivet.readthedocs.io).
   
-#### TDA
-[TDA](https://cran.r-project.org/web/packages/TDA/) - tools for the statistical analysis of persistent homology and for density clustering. For that, this package provides an R interface for the efficient algorithms of the C++ libraries [GUDHI](http://gudhi.gforge.inria.fr/), [Dionysus](http://www.mrzv.org/software/dionysus/), and [PHAT](https://bitbucket.org/phat-code/phat/). This package also implements the methods in Fasy et al. [(2014)](doi:10.1214/14-AOS1252) and Chazal et al. [(2014)](doi:10.1145/2582112.2582128) for analyzing the statistical significance of persistent homology features.
-
 ### GO
 #### tda
 [tda](https://github.com/kshedden/tda) - This package provides support for a few methods from topological data analysis.
@@ -264,6 +260,9 @@ Current packages available:
 [tmap](https://tmap.readthedocs.org) - tmap is a topological data analysis framework implementing the TDA Mapper algorithm for population-scale microbiome data analysis. it has been developed to enable easy adoption of TDA in microbiome data analysis pipeline, providing network-based statistical methods for enterotype analysis, driver species identification, and microbiome-wide association analysis of host meta-data.
 
 ### R
+#### TDA
+[TDA](https://cran.r-project.org/web/packages/TDA/) - tools for the statistical analysis of persistent homology and for density clustering. For that, this package provides an R interface for the efficient algorithms of the C++ libraries [GUDHI](http://gudhi.gforge.inria.fr/), [Dionysus](http://www.mrzv.org/software/dionysus/), and [PHAT](https://bitbucket.org/phat-code/phat/). This package also implements the methods in Fasy et al. [(2014)](doi:10.1214/14-AOS1252) and Chazal et al. [(2014)](doi:10.1145/2582112.2582128) for analyzing the statistical significance of persistent homology features.
+
 #### TDAmapper
 [TDAmapper](https://github.com/paultpearson/TDAmapper/) - Topological Data Analysis using Mapper - An R package for using discrete Morse theory to analyze a data set using the Mapper algorithm described in G. Singh, F. Memoli, G. Carlsson (2007)
 
@@ -289,6 +288,9 @@ Current packages available:
 ### A concrete application of Topological Data Analysis
 - [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
 
+### BioTDA
+- [List of Resources for Topological Data Analysis in Bioinformatics](https://github.com/biobai/BioTDA/blob/52715e03fe8cfe1ee11eced06896f74e1e5b4f1a/README.md)
+
 ### Computing Homology
 - [Computing Homology](https://jeremykun.com/2013/04/10/computing-homology/)
 
@@ -299,6 +301,9 @@ Current packages available:
 
 ### TDA and Data Professionals
 - [Topological Data Analysis for Data Professionals](https://www.kdnuggets.com/2018/01/topological-data-analysis.html)
+
+### Topological Methods in Brain Network Analysis
+- [Topological Methods in Brain Network Analysis](https://braintopology.wordpress.com/tda/)
 
 ### TDA and Deep Learning
 - [Applied Topological Data Analysis to Deep Learning? Hands-on Arrhythmia Classification!](https://towardsdatascience.com/applied-topological-data-analysis-to-deep-learning-hands-on-arrhythmia-classification-48993d78f9e6)
