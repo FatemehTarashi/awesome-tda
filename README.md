@@ -51,14 +51,15 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
     - [Spark Mapper](#spark-mapper)
     - [Spark-tda](#spark-tda)
 - [Useful Links](#useful-links)
-  - [A concrete application of Topological Data Analysis](#a-concrete-application-of-topological-data-analysis)
-  - [BioTDA](#biotda)
   - [Computing Homology](#computing-homology)
   - [Persistent Homology](#persistent-homology)
+  - [TDA and Bioinformatics](#tda-and-bioinformatics)
+  - [TDA and Brain Network Analysis](#tda-and-brain-network-analysis)
   - [TDA and Data Professionals](#tda-and-data-professionals)
   - [TDA and Deep Learning](#tda-and-deep-learning)
   - [TDA and Machine Learning](#tda-and-machine-learning)
-  - [Topological Methods in Brain Network Analysis](#topological-methods-in-brain-network-analysis)
+  - [TDA and Python](#tda-and-python)
+  - [Theory and applications of TDA](theory-and-applications-of-tda)
 - [Event](#event)
 - [License](#license)
 
@@ -86,6 +87,10 @@ A curated list of [TDA](https://en.wikipedia.org/wiki/Topological_data_analysis)
 * Computational Topology: An Introduction - Herbert Edelsbrunner, John L. Harer [Online](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf)
 
 * Elementary Applied Topology - Robert Ghrist [Site](https://www.math.upenn.edu/~ghrist/notes.html)
+
+* Fundamentals of Brain Network Analysis - Fundamentals of Brain Network Analysis [amazon](https://www.amazon.com/Fundamentals-Brain-Network-Analysis-Fornito-ebook/dp/B01CRIU886)
+
+* Geometric and Topological Inference - Boissonnat, Chazal, Yvinec [PDF](https://www.researchgate.net/publication/320412992_Geometric_and_Topological_Inference)
 
 * Persistence Theory: From Quiver Representations to Data Analysis - Steve Y. Oudot [Online](https://bookstore.ams.org/surv-209/) [PDF](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf)
 
@@ -285,12 +290,6 @@ Current packages available:
   
 ## Useful Links
 
-### A concrete application of Topological Data Analysis
-- [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
-
-### BioTDA
-- [List of Resources for Topological Data Analysis in Bioinformatics](https://github.com/biobai/BioTDA/blob/52715e03fe8cfe1ee11eced06896f74e1e5b4f1a/README.md)
-
 ### Computing Homology
 - [Computing Homology](https://jeremykun.com/2013/04/10/computing-homology/)
 
@@ -299,11 +298,25 @@ Current packages available:
 
 - [Practical Guide to Persistent Homology](http://www.mrzv.org/software/dionysus2/tutorial/index.html)
 
+### TDA and Bioinformatics
+- [List of Resources for Topological Data Analysis in Bioinformatics](https://github.com/biobai/BioTDA/blob/52715e03fe8cfe1ee11eced06896f74e1e5b4f1a/README.md)
+
+### TDA and Brain Network Analysis
+- [An algebraic topological method for multimodal brain networks comparisons](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00904/full)
+
+- [Complex Brain Network Analysis and Its Applications to Brain Disorders: A Survey](https://new.hindawi.com/journals/complexity/2017/8362741/)
+
+- [Functional Brain Network Topology Discriminates between Patients with Minimally Conscious State and Unresponsive Wakefulness Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463121/)
+
+- [Graph theory methods: applications in brain networks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6136126/)
+
+- [Topological Methods in Brain Network Analysis](https://braintopology.wordpress.com/tda/)
+
 ### TDA and Data Professionals
 - [Topological Data Analysis for Data Professionals](https://www.kdnuggets.com/2018/01/topological-data-analysis.html)
 
-### Topological Methods in Brain Network Analysis
-- [Topological Methods in Brain Network Analysis](https://braintopology.wordpress.com/tda/)
+### TDA and Python
+-[Topological Data Analysis - A Python tutorial](https://www.thekerneltrip.com/statistics/topological-data-analysis-tutorial/)
 
 ### TDA and Deep Learning
 - [Applied Topological Data Analysis to Deep Learning? Hands-on Arrhythmia Classification!](https://towardsdatascience.com/applied-topological-data-analysis-to-deep-learning-hands-on-arrhythmia-classification-48993d78f9e6)
@@ -320,6 +333,12 @@ Current packages available:
 - [Topological Methods for Machine Learning](http://topology.cs.wisc.edu/)
 
 - [Topological Machine Learning](https://www.sthu.org/research/topmachinelearning/)
+
+### Theory and applications of TDA
+- [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
+
+- [Theory and applications of topological data analysis](https://datawarrior.wordpress.com/category/tda/)
+
 
 ## Event
 - [Conferences and workshops](https://people.clas.ufl.edu/peterbubenik/conferences/)
