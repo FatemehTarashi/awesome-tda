@@ -348,5 +348,4 @@ Current packages available:
 
 ## License
 
-`awesome-TDA by [@FatemehTarashi](https://github.com/FatemehTarashi) is licensed under the
-GNU General Public License v3.0
+awesome TDA is licensed under the GNU General Public License v3.0
