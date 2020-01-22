@@ -1,4 +1,4 @@
-# awesome TDA [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# awesome TDA 
 
 A curated list of [Topological Data Analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) tools and resources. In applied mathematics, TDA is an approach to the analysis of datasets using techniques from topology. 
 
@@ -17,8 +17,6 @@ If you know of any other tools, resources or... feel free to fork/PR or open a n
   - [TdaToolbox](#tdatoolbox)
   - [TTk](#ttk)
 - [Frameworks and Libs](#frameworks-and-libs)
-  - [C](#c)
-    - [clique-top](#clique-top)
   - [C++](#c++)
     - [Ctl](#ctl)
     - [Dionysus](#dionysus)
@@ -32,14 +30,16 @@ If you know of any other tools, resources or... feel free to fork/PR or open a n
   - [Java](#java)
     - [JavaPlex](#javaplex)
   - [Julia](#julia)
-    - [TDA.jl](tda.jl)
+    - [TDA.jl](#tda.jl)
+  - [Matlab](#matlab)
+    - [clique-top](#clique-top)
   - [Python](#python)
     - [GDA-Public](#gda-public)
     - [KeplerMapper](#keplermapper)
     - [kohonen](#kohonen)
     - [Mapper implementation TDA](#mapper-implementation-tda)
     - [mogutda](#mogutda)
-    - [openTDA](#opentdpdfa)
+    - [openTDA](#opentda)
     - [Python Mapper](#python-mapper)
     - [qsv](#qsv)
     - [Scikit-TDA](#scikit-tda)
@@ -166,10 +166,6 @@ For more information you can read ["Topological Data Analysis Made Easy with the
 
 ## Frameworks and Libs
 
-### C
-#### clique-top 
-[clique-top](https://github.com/nebneuron/clique-top) - The clique-top is a collection of matlab scripts for doing topological analysis of symmetric matrices.
-
 ### C++
 #### ctl
 [Ctl](https://github.com/appliedtopology/ctl) - This C++11 library provides a set of generic tools for:
@@ -221,6 +217,10 @@ Currently, methods for gridded data (images) are provided, including:
 ### Julia 
 #### TDA.jl
 [TDA.jl](https://github.com/wildart/TDA.jl) - This package provides various tools for topological data analysis.
+
+### Matlab
+#### clique-top 
+[clique-top](https://github.com/nebneuron/clique-top) - The clique-top is a collection of matlab scripts for doing topological analysis of symmetric matrices.
 
 ### Python
 #### GDA-Public
