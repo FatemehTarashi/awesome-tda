@@ -2,7 +2,7 @@
 
 A curated list of [Topological Data Analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) tools and resources. In applied mathematics, TDA is an approach to the analysis of datasets using techniques from topology. 
 
-If you know of any other tools, resources or... read Contribution Guidelines and feel free to fork/PR or open a new issue. 
+If you know of any other tools or resources, read [Contribution Guidelines](https://github.com/FatemehTarashi/awesome-tda/blob/master/contributing.md) and feel free to fork/PR or open a new issue. 
 
 ## Contents
 
@@ -45,14 +45,16 @@ If you know of any other tools, resources or... read Contribution Guidelines and
 
 ### Algorithms
 
-* [chunk](https://www.researchgate.net/publication/235766026_Clear_and_Compress_Computing_Persistent_Homology_in_Chunks)
-* Morse-Smale complex
-* Persistent homology computation
-* Persistent cohomology computation
-* [pHrow](https://arxiv.org/pdf/1107.5665.pdf)
-* Reeb graph
-* Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions
-* [twist](https://www.researchgate.net/publication/228605960_Persistent_homology_computation_with_a_twist)
+<!-- * Morse-Smale complex -->
+<!-- * Persistent homology computation -->
+<!-- * Persistent cohomology computation -->
+<!-- * Reeb graph -->
+<!-- * Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions -->
+* [Chunk](https://www.researchgate.net/publication/235766026_Clear_and_Compress_Computing_Persistent_Homology_in_Chunks)
+* [Mapper](http://diglib.eg.org/handle/10.2312/SPBG.SPBG07.091-100)
+ ([brief summary](https://github.com/ognis1205/spark-tda/wiki/Mapper))
+* [PHrow](https://arxiv.org/pdf/1107.5665.pdf)
+* [Twist](https://www.researchgate.net/publication/228605960_Persistent_homology_computation_with_a_twist)
 * [Vineyards](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.5942&rep=rep1&type=pdf)
 * [Zigzag persistent homology](https://www.mrzv.org/publications/zigzags/socg09/) 
 * [Zigzag Persistent Cohomology](https://arxiv.org/pdf/1608.06039.pdf)
@@ -118,79 +120,77 @@ If you know of any other tools, resources or... read Contribution Guidelines and
 * [Why Topology for Machine Learning and Knowledge Extraction?](https://res.mdpi.com/d_attachment/make/make-01-00006/article_deploy/make-01-00006.pdf) - Massimo Ferri
 
 ### Courses
-- [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful
+- [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful.
 
-- [Topological Data Analysis](http://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful
-
-- [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/)
+- [Topological Data Analysis](http://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful.
 
 ## Tools
-- [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) a set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing [persistent] homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R
+- [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) a set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing [persistent] homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R.
 
-- [RIVET](https://github.com/rivetTDA/rivet) - for the visualization and analysis of two-parameter persistent homology with [Python API](https://github.com/rivetTDA/rivet-python/)
+- [RIVET](https://github.com/rivetTDA/rivet) - For the visualization and analysis of two-parameter persistent homology with [Python API](https://github.com/rivetTDA/rivet-python/).
 
-- [TdaToolbox](https://github.com/Coricos/TdaToolbox)
+- [TdaToolbox](https://github.com/Coricos/TdaToolbox) - Some tools that may be applied to data science in general.
 
-- [TTk](https://topology-tool-kit.github.io/index.html) - for topological data analysis in scientific visualization. Can be used with C++, python
+- [TTk](https://topology-tool-kit.github.io/index.html) - Topological data analysis in scientific visualization. Can be used with C++, python.
 
 ## Frameworks and Libs
 
 ### C++  
-- [Dionysus](http://mrzv.org/software/dionysus/) and [Dionysus2](https://github.com/iaciac/dionysus) - for computing persistent (co)homology. Implementation of the Persistent (co)homology computation, Vineyards, Zigzag persistent homology algorithms
+- [Dionysus](http://mrzv.org/software/dionysus/) and [Dionysus2](https://github.com/iaciac/dionysus) - Computing persistent (co)homology. Implementation of the Persistent (co)homology computation, Vineyards, Zigzag persistent homology algorithms.
 
-- [GUDHI](http://gudhi.gforge.inria.fr/) - Geometry Understanding in Higher Dimensional with a Python interface
+- [GUDHI](http://gudhi.gforge.inria.fr/) - Geometry Understanding in Higher Dimensional with a Python interface.
 
-- [PHAT](https://bitbucket.org/phat-code/phat) - Persistent Homology Algorithm Toolbox
+- [PHAT](https://bitbucket.org/phat-code/phat) - Persistent Homology Algorithm Toolbox.
     
 ### GO
-- [tda](https://github.com/kshedden/tda) 
+- [tda](https://github.com/kshedden/tda) - Some methods are provided for gridded data (images).
 
 ### Haskell 
 - [Persistence](https://hackage.haskell.org/package/Persistence) 
 
 ### Java
-- [JavaPlex](https://github.com/appliedtopology/javaplex) 
+- [JavaPlex](https://github.com/appliedtopology/javaplex) - The JavaPlex library implements persistent homology and related techniques. It designed for ease of use from Matlab and java-based systems.
 
 ### Julia 
-- [TDA.jl](https://github.com/wildart/TDA.jl) 
+- [TDA.jl](https://github.com/wildart/TDA.jl) - This package provides Persistence Diagram & Barcode, Nerve, Mapper tools for topological data analysis.
 
 ### Matlab
-- [clique-top](https://github.com/nebneuron/clique-top) - for doing topological analysis of symmetric matrices
+- [clique-top](https://github.com/nebneuron/clique-top) - Doing topological analysis of symmetric matrices.
 
 ### Python
-- [GDA-Public](https://geomdata.github.io/gda-public/) - several fundamental tools by Geometric Data Analytics Inc. [geomdata](http://www.geomdata.com)
+- [GDA-Public](https://geomdata.github.io/gda-public/) - Several fundamental tools by Geometric Data Analytics Inc. [geomdata](http://www.geomdata.com)
 
 - [KeplerMapper](https://github.com/MLWave/kepler-mapper) - TDA Mapper algorithm for visualization of high-dimensional data. it can make use of Scikit-Learn API compatible cluster and scaling algorithms.
 
 - [kohonen](https://github.com/lmjohns3/kohonen) - Kohonen-style vector quantizers: Self-Organizing Map (SOM), Neural Gas, and Growing Neural Gas.
 
-- [Mapper implementation](https://github.com/ksanjeevan/mapper-tda) - Topological Data Analysis for high dimensional dataset exploration
+- [Mapper implementation](https://github.com/ksanjeevan/mapper-tda) - Topological Data Analysis for high dimensional dataset exploration.
 
-- [mogutda](https://github.com/stephenhky/MoguTDA) - numerical calculation of algebraic topology in an application to topological data analysis: implicial complex, and the estimation of homology and Betti numbers.
+- [mogutda](https://github.com/stephenhky/MoguTDA) - Numerical calculation of algebraic topology in an application to topological data analysis: implicial complex, and the estimation of homology and Betti numbers.
 
 - [openTDA](https://github.com/outlace/OpenTDA)
 
-- [Python Mapper](http://danifold.net/mapper/introduction.html) 
+- [Python Mapper](http://danifold.net/mapper/introduction.html) - Mapper algorithm implementation + graphical user interface.
 
-- [qsv](https://github.com/RottenFruits/qsv) 
+- [qsv](https://github.com/RottenFruits/qsv) - data structure visualizer.
 
-- [Scikit-TDA](https://scikit-tda.org/)-  for non-topologists
+- [Scikit-TDA](https://scikit-tda.org/)-  For non-topologists.
 
-- [scTDA](https://github.com/CamaraLab/scTDA) 
+- [scTDA](https://github.com/CamaraLab/scTDA) - It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
 
-- [tmap](https://tmap.readthedocs.org) - for population-scale microbiome data analysis
+- [tmap](https://tmap.readthedocs.org) - Population-scale microbiome data analysis.
 
 ### R
-- [TDA](https://cran.r-project.org/web/packages/TDA/) - tools for the statistical analysis of persistent homology and for density clustering.
+- [TDA](https://cran.r-project.org/web/packages/TDA/) - Tools for the statistical analysis of persistent homology and for density clustering.
 
-- [TDAmapper](https://github.com/paultpearson/TDAmapper/) - An R package for using discrete Morse theory to analyze a data set using the Mapper algorithm described in G. Singh, F. Memoli, G. Carlsson (2007)
+- [TDAmapper](https://github.com/paultpearson/TDAmapper/) - An R package for using discrete Morse theory to analyze a data set using the Mapper algorithm described in G. Singh, F. Memoli, G. Carlsson (2007).
 
-- [TDAstats](https://github.com/rrrlw/TDAstats) 
+- [TDAstats](https://github.com/rrrlw/TDAstats) - Computing persistent homology.
 
 ### Spark
-- [Spark Mapper](https://github.com/log0ymxm/spark-mapper) - for estimating a lower dimensional simplicial complex from a dataset
+- [Spark Mapper](https://github.com/log0ymxm/spark-mapper) - Estimating a lower dimensional simplicial complex from a dataset.
 
-- [spark-tda](https://github.com/ognis1205/spark-tda) 
+- [spark-tda](https://github.com/ognis1205/spark-tda) - scalable topological data analysis package.
   
 ## Useful Links
 
@@ -241,6 +241,8 @@ If you know of any other tools, resources or... read Contribution Guidelines and
 ### Theory and applications of TDA
 - [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
 
+- [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/)
+
 - [Theory and applications of topological data analysis](https://datawarrior.wordpress.com/category/tda/)
 
 ## Event
@@ -250,4 +252,4 @@ If you know of any other tools, resources or... read Contribution Guidelines and
 
 ## License
 
-awesome TDA is licensed under the GNU General Public License v3.0
+<a rel="license" href="https://creativecommons.org/licenses/by/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/1.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/1.0/">CC0 1.0 Universal </a>License.
