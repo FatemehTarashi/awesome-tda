@@ -33,6 +33,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
   - [Machine Learning](#machine-learning)
   - [Persistent Homology](#persistent-homology)
   - [Python](#python)
+  - [R](#r)
   - [Theory and applications of TDA](theory-and-applications-of-tda)
 - [Event](#event)
 - [License](#license)
@@ -238,10 +239,17 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ### Python
 - [Topological Data Analysis - A Python tutorial](https://www.thekerneltrip.com/statistics/topological-data-analysis-tutorial/)
 
+### R
+- [A Mathematician's Perspective on Topological Data Analysis and R](https://rviews.rstudio.com/2018/11/14/a-mathematician-s-perspective-on-topological-data-analysis-and-r/)
+
 ### Theory and applications of TDA
 - [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
 
-- [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/)
+- [Topological Data Analysis - A Very Short Introduction](https://medium.com/@varad.deshmukh/topological-data-analysis-a-very-short-introduction-611d3238a0bd)
+
+- [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/) - UFL
+
+- [Topological Data Analysis](https://researcher.watson.ibm.com/researcher/view_group.php?id=6585) - IBM
 
 - [Theory and applications of topological data analysis](https://datawarrior.wordpress.com/category/tda/)
 
