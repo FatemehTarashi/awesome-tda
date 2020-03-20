@@ -77,7 +77,9 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 * [Persistence Theory: From Quiver Representations to Data Analysis](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf) - Steve Y. Oudot 
 
 * [Topological and Statistical Methods for Complex Data: Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces](https://www.springer.com/gp/book/9783662448991) -  Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.)
-  
+
+* [Topological Based Machine Learning Methods](https://escholarship.org/uc/item/4vr8963d) - Alex Georges
+
 * [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien 
 
 * [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J. ZOMORODIAN
@@ -89,6 +91,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ### Articles
 
 * [A Fuzzy Clustering Algorithm for the Mode Seeking Framework](https://arxiv.org/abs/1406.7130) - Bonis, Oudot
+
+* [A topological data analysis based classification method for multiple measurements](https://arxiv.org/abs/1904.02971) - Riihimäki, Chachólski, Theorell, Hillert, Ramanujam
 
 * [A User’s Guide to Topological Data Analysis](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) - Elizabeth Munch
   
@@ -127,6 +131,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 ## Tools
 - [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) a set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing [persistent] homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R.
+
+- [Knotter](https://github.com/rosinality/knotter) Implementation of Mapper algorithm for TDA
 
 - [RIVET](https://github.com/rivetTDA/rivet) - For the visualization and analysis of two-parameter persistent homology with [Python API](https://github.com/rivetTDA/rivet-python/).
 
@@ -226,6 +232,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 ### Machine Learning
 - [How TDA and Machine Learning Enhance Each Other](https://www.ayasdi.com/blog/bigdata/how-tda-and-machine-learning-enhance-each-other/)
+
+- [Machine Learning Explanations with Topological Data Analysis](https://sauln.github.io/blog/tda_explanations/)
 
 - [Topological Methods for Machine Learning](http://topology.cs.wisc.edu/)
 
