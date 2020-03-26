@@ -130,7 +130,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [Topological Data Analysis](http://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful.
 
 ## Tools
-- [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) a set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing [persistent] homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R.
+- [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) A set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing [persistent] homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R.
 
 - [Knotter](https://github.com/rosinality/knotter) Implementation of Mapper algorithm for TDA
 
@@ -150,7 +150,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [PHAT](https://bitbucket.org/phat-code/phat) - Persistent Homology Algorithm Toolbox.
     
 ### GO
-- [tda](https://github.com/kshedden/tda) - Some methods are provided for gridded data (images).
+- [TDA](https://github.com/kshedden/tda) - Some methods are provided for gridded data (images).
 
 ### Haskell 
 - [Persistence](https://hackage.haskell.org/package/Persistence) 
@@ -162,30 +162,30 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [TDA.jl](https://github.com/wildart/TDA.jl) - This package provides Persistence Diagram & Barcode, Nerve, Mapper tools for topological data analysis.
 
 ### Matlab
-- [clique-top](https://github.com/nebneuron/clique-top) - Doing topological analysis of symmetric matrices.
+- [Clique Top](https://github.com/nebneuron/clique-top) - Doing topological analysis of symmetric matrices.
 
 ### Python
-- [GDA-Public](https://geomdata.github.io/gda-public/) - Several fundamental tools by Geometric Data Analytics Inc. [geomdata](http://www.geomdata.com)
+- [GDA Public](https://geomdata.github.io/gda-public/) - Several fundamental tools by Geometric Data Analytics Inc. [geomdata](http://www.geomdata.com)
 
 - [KeplerMapper](https://github.com/MLWave/kepler-mapper) - TDA Mapper algorithm for visualization of high-dimensional data. it can make use of Scikit-Learn API compatible cluster and scaling algorithms.
 
-- [kohonen](https://github.com/lmjohns3/kohonen) - Kohonen-style vector quantizers: Self-Organizing Map (SOM), Neural Gas, and Growing Neural Gas.
+- [Kohonen](https://github.com/lmjohns3/kohonen) - Kohonen-style vector quantizers: Self-Organizing Map (SOM), Neural Gas, and Growing Neural Gas.
 
-- [Mapper implementation](https://github.com/ksanjeevan/mapper-tda) - Topological Data Analysis for high dimensional dataset exploration.
+- [Mapper Implementation](https://github.com/ksanjeevan/mapper-tda) - Topological Data Analysis for high dimensional dataset exploration.
 
-- [mogutda](https://github.com/stephenhky/MoguTDA) - Numerical calculation of algebraic topology in an application to topological data analysis: implicial complex, and the estimation of homology and Betti numbers.
+- [MoguTDA](https://github.com/stephenhky/MoguTDA) - Numerical calculation of algebraic topology in an application to topological data analysis: implicial complex, and the estimation of homology and Betti numbers.
 
-- [openTDA](https://github.com/outlace/OpenTDA)
+- [OpenTDA](https://github.com/outlace/OpenTDA)
 
 - [Python Mapper](http://danifold.net/mapper/introduction.html) - Mapper algorithm implementation + graphical user interface.
 
-- [qsv](https://github.com/RottenFruits/qsv) - data structure visualizer.
+- [Qsv](https://github.com/RottenFruits/qsv) - Data structure visualizer.
 
 - [Scikit-TDA](https://scikit-tda.org/)-  For non-topologists.
 
-- [scTDA](https://github.com/CamaraLab/scTDA) - It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
+- [ScTDA](https://github.com/CamaraLab/scTDA) - It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
 
-- [tmap](https://tmap.readthedocs.org) - Population-scale microbiome data analysis.
+- [TMAP](https://tmap.readthedocs.org) - Population-scale microbiome data analysis.
 
 ### R
 - [TDA](https://cran.r-project.org/web/packages/TDA/) - Tools for the statistical analysis of persistent homology and for density clustering.
@@ -197,7 +197,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ### Spark
 - [Spark Mapper](https://github.com/log0ymxm/spark-mapper) - Estimating a lower dimensional simplicial complex from a dataset.
 
-- [spark-tda](https://github.com/ognis1205/spark-tda) - scalable topological data analysis package.
+- [Spark TDA](https://github.com/ognis1205/spark-tda) - Scalable topological data analysis package.
   
 ## Useful Links
 
