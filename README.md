@@ -82,6 +82,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 * [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien 
 
+* [Topological Data Analysis for Genomics and Evolution: Topology in Biology](https://www.cambridge.org/core/books/topological-data-analysis-for-genomics-and-evolution/FCC8429FAD2B5D1525AEA47A8366D6EB) - Raul Rabadan, Andrew J. Blumberg
+
 * [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J. ZOMORODIAN
 
 * [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications](https://www.springer.com/gp/book/9783642150135), [II](https://www.springer.com/gp/book/9783642231742), [III](https://www.springer.com/gp/book/9783319040981), [IV](https://www.springer.com/gp/book/9783319446820)
