@@ -127,9 +127,13 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 * [Why Topology for Machine Learning and Knowledge Extraction?](https://res.mdpi.com/d_attachment/make/make-01-00006/article_deploy/make-01-00006.pdf) - Massimo Ferri
 
 ### Courses
+- [Applied Algebraic Topology Research Network](https://topology.ima.umn.edu/seminars) Videos of presentations to the [Applied Algebraic Topology Research Network](https://topology.ima.umn.edu).
+
 - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful.
 
 - [Topological Data Analysis](http://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful.
+
+- [Topics in topology: Scientific and engineering applications of algebraic topology](http://homepage.math.uiowa.edu/~idarcy/AT/prelectures.html) a 2013 lecture series ([videos here](https://www.youtube.com/channel/UCThuKLGcSXhBJ5GlwzHobJw/videos?view=0&sort=da&flow=grid)) on TDA.
 
 ## Tools
 - [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) A set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing [persistent] homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R.
