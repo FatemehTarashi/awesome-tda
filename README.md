@@ -127,7 +127,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 * [Why Topology for Machine Learning and Knowledge Extraction?](https://res.mdpi.com/d_attachment/make/make-01-00006/article_deploy/make-01-00006.pdf) - Massimo Ferri
 
 ### Courses
-- [Applied Algebraic Topology Research Network](https://www.ima.umn.edu/topology/) Not actually a course, but they have a Youtube channel with videos, many of which are related to TDA.
+- [Applied Algebraic Topology Research Network](https://www.ima.umn.edu/topology/seminars) Videos of presentations to the Applied Algebraic Topology Research Network.
 
 - [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful.
 
