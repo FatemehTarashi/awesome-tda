@@ -80,9 +80,9 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 * [Topological Based Machine Learning Methods](https://escholarship.org/uc/item/4vr8963d) - Alex Georges
 
-* [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien 
-
 * [Topological Data Analysis for Genomics and Evolution: Topology in Biology](https://www.cambridge.org/core/books/topological-data-analysis-for-genomics-and-evolution/FCC8429FAD2B5D1525AEA47A8366D6EB) - Raul Rabadan, Andrew J. Blumberg
+
+* [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien 
 
 * [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J. ZOMORODIAN
 
@@ -258,6 +258,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 ### Theory and applications of TDA
 - [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
+
+- [A Guide to Data Science from mathematics](https://github.com/Hulalazz/A-_Guide_-to_Data_Sciecne_from_mathematics/blob/f42b92bb6a34f32d8c4e7afe98c9bdc889413688/TDA.md)
 
 - [Topological Data Analysis - A Very Short Introduction](https://medium.com/@varad.deshmukh/topological-data-analysis-a-very-short-introduction-611d3238a0bd)
 
