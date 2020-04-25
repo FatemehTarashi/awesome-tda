@@ -106,6 +106,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 * [Deep Learning with Topological Signatures](https://papers.nips.cc/paper/6761-deep-learning-with-topological-signatures.pdf) - Hofer, Kwitt, Niethammer, Uhl
 
+* [Designing machine learning workflows with an application to topological data analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225577) - Cawi, La Rosa, Nehorai  
+
 * [Introduction to the R package TDA](cran.r-project.org/web/packages/TDA/vignettes/article.pdf) - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau 
   
 * [Homological Algebra and Data](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf) - Robert Ghrist
@@ -119,6 +121,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 * [Topological Data Analysis](https://arxiv.org/abs/1609.08227) - Larry Wasserman
 
 * [Topological Data Analysis and Its Application to Time-Series Data Analysis](https://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol55-2/paper15.pdf) - Y. Umeda, J. Kaneko, H. Kikuchi
+
+* [Topological Data Analysis and Machine Learning Theory](https://www.birs.ca/workshops/2012/12w5081/report12w5081.pdf) - Carlsson , Jardine, Feichtner-Kozlov, Morozov
 
 * [Topological Data Analysis for Object Data](https://arxiv.org/abs/1804.10255) - Patrangenaru, Bubenik, Paige, Osborne 
 
