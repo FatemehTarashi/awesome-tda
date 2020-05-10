@@ -114,6 +114,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
   
 * [Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport](https://arxiv.org/abs/1805.08331) -  Lacombe, Cuturi, OUDOT 
   
+* [Stratifying Multiparmeter Persistent Homology](https://arxiv.org/pdf/1708.07390.pdf)  - Harriington, Otter, Schenck, Tillmann
+  
 * [Text Mining using Topological Data Analysis. An introduction](https://www.researchgate.net/publication/323705256_Text_Mining_using_Topological_Data_Analysis_An_introduction) - G. A. Carrazana, C. O. C. Chong
 
 * [Topology and Data](https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf) - Gunnar Carlsson
@@ -264,6 +266,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [A concrete application of Topological Data Analysis](https://towardsdatascience.com/a-concrete-application-of-topological-data-analysis-86b89aa27586)
 
 - [A Guide to Data Science from mathematics](https://github.com/Hulalazz/A-_Guide_-to_Data_Sciecne_from_mathematics/blob/f42b92bb6a34f32d8c4e7afe98c9bdc889413688/TDA.md)
+
+- [An Algebraic Geometry Perspective on Topological Data Analysis](https://sinews.siam.org/Details-Page/an-algebraic-geometry-perspective-on-topological-data-analysis)
 
 - [Topological Data Analysis - A Very Short Introduction](https://medium.com/@varad.deshmukh/topological-data-analysis-a-very-short-introduction-611d3238a0bd)
 
