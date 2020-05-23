@@ -114,6 +114,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
   
 * [Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport](https://arxiv.org/abs/1805.08331) -  Lacombe, Cuturi, OUDOT 
   
+* [Sampling real algebraic varieties for topological data analysis](https://arxiv.org/abs/1802.07716) - Dufresne, Edwards, Harrington, Hauenstein
+
 * [Stratifying Multiparmeter Persistent Homology](https://arxiv.org/pdf/1708.07390.pdf)  - Harriington, Otter, Schenck, Tillmann
   
 * [Text Mining using Topological Data Analysis. An introduction](https://www.researchgate.net/publication/323705256_Text_Mining_using_Topological_Data_Analysis_An_introduction) - G. A. Carrazana, C. O. C. Chong
