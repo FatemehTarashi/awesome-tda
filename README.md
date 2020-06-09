@@ -175,6 +175,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ### Julia 
 - [TDA.jl](https://github.com/wildart/TDA.jl) - This package provides Persistence Diagram & Barcode, Nerve, Mapper tools for topological data analysis.
 
+- [Eirene.jl](https://github.com/Eetion/Eirene.jl) - Fast computation of persistence homology based on matroid optimization including barcodes, betti curves, persistence diagrams, wasserstein distances and representatives.
+
 ### Matlab
 - [Clique Top](https://github.com/nebneuron/clique-top) - Doing topological analysis of symmetric matrices.
 
