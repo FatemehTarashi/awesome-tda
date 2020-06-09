@@ -173,6 +173,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [JavaPlex](https://github.com/appliedtopology/javaplex) - The JavaPlex library implements persistent homology and related techniques. It designed for ease of use from Matlab and java-based systems.
 
 ### Julia 
+- [Eirene.jl](https://github.com/Eetion/Eirene.jl) -  For homological persistence 
 - [TDA.jl](https://github.com/wildart/TDA.jl) - This package provides Persistence Diagram & Barcode, Nerve, Mapper tools for topological data analysis.
 
 ### Matlab
