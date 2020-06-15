@@ -1,4 +1,4 @@
-# Awesome TDA  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Awesome TDA  [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
 A curated list of [Topological Data Analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) tools and resources. In applied mathematics, TDA is an approach to the analysis of datasets using techniques from topology. 
 
@@ -15,8 +15,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
   - [Courses](#courses)
 - [Tools](#tools)
 - [Frameworks and Libs](#frameworks-and-libs)
-  - [C++](#c++)
-  - [go](#go)
+  - [C++](#c)
+  - [Go](#go)
   - [Haskell](#haskell)
   - [Java](#java)
   - [Julia](#julia)
@@ -32,15 +32,12 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
   - [Deep Learning](#deep-learning)
   - [Machine Learning](#machine-learning)
   - [Persistent Homology](#persistent-homology)
-  - [Python](#python)
-  - [R](#r)
-  - [Theory and applications of TDA](theory-and-applications-of-tda)
+  - [Use Python](#use-python)
+  - [Use R](#use-r)
+  - [Theory and applications of TDA](#theory-and-applications-of-tda)
 - [Event](#event)
-- [License](#license)
 
 <!--lint enable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
-
-- - -
 
 ## Theory
 
@@ -51,102 +48,106 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 <!-- * Persistent cohomology computation -->
 <!-- * Reeb graph -->
 <!-- * Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions -->
-* [Chunk](https://www.researchgate.net/publication/235766026_Clear_and_Compress_Computing_Persistent_Homology_in_Chunks)
-* [Mapper](http://diglib.eg.org/handle/10.2312/SPBG.SPBG07.091-100)
+- [Chunk](https://www.researchgate.net/publication/235766026_Clear_and_Compress_Computing_Persistent_Homology_in_Chunks)
+- [Mapper](http://diglib.eg.org/handle/10.2312/SPBG.SPBG07.091-100)
  ([brief summary](https://github.com/ognis1205/spark-tda/wiki/Mapper))
-* [PHrow](https://arxiv.org/pdf/1107.5665.pdf)
-* [Twist](https://www.researchgate.net/publication/228605960_Persistent_homology_computation_with_a_twist)
-* [Vineyards](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.5942&rep=rep1&type=pdf)
-* [Zigzag persistent homology](https://www.mrzv.org/publications/zigzags/socg09/) 
-* [Zigzag Persistent Cohomology](https://arxiv.org/pdf/1608.06039.pdf)
+- [PHrow](https://arxiv.org/pdf/1107.5665.pdf)
+- [Twist](https://www.researchgate.net/publication/228605960_Persistent_homology_computation_with_a_twist)
+- [Vineyards](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.114.5942&rep=rep1&type=pdf)
+- [Zigzag persistent homology](https://www.mrzv.org/publications/zigzags/socg09/) 
+- [Zigzag Persistent Cohomology](https://arxiv.org/pdf/1608.06039.pdf)
   
 ### Books
    
-* [A Short Course in Computational Geometry and Topology](https://www.springer.com/gp/book/9783319059563) - Edelsbrunner, Herbert 
+- [A Short Course in Computational Geometry and Topology](https://www.springer.com/gp/book/9783319059563) - Edelsbrunner, Herbert.
 
-* [Computational Homology (Applied Mathematical Sciences)](https://www.amazon.com/dp/1441923543/) -  T. Kaczynski, K. Mischaikow, M. Mrozek
+- [Computational Homology (Applied Mathematical Sciences)](https://www.amazon.com/dp/1441923543/) - Kaczynski, Mischaikow, Mrozek.
 
-* [Computational Topology: An Introduction](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf) - Herbert Edelsbrunner, John L. Harer
+- [Computational Topology: An Introduction](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf) - Herbert Edelsbrunner, John L Harer.
 
-* [Elementary Applied Topology](https://www.math.upenn.edu/~ghrist/notes.html) - Robert Ghrist
+- [Elementary Applied Topology](https://www.math.upenn.edu/~ghrist/notes.html) - Robert Ghrist.
 
-* [Fundamentals of Brain Network Analysis](https://www.amazon.com/Fundamentals-Brain-Network-Analysis-Fornito-ebook/dp/B01CRIU886) - Fundamentals of Brain Network Analysis
+- [Fundamentals of Brain Network Analysis](https://www.amazon.com/Fundamentals-Brain-Network-Analysis-Fornito-ebook/dp/B01CRIU886) - Fundamentals of Brain Network Analysis.
 
-* [Geometric and Topological Inference](https://www.researchgate.net/publication/320412992_Geometric_and_Topological_Inference) - Boissonnat, Chazal, Yvinec
+- [Geometric and Topological Inference](https://www.researchgate.net/publication/320412992_Geometric_and_Topological_Inference) - Boissonnat, Chazal, Yvinec.
 
-* [Persistence Theory: From Quiver Representations to Data Analysis](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf) - Steve Y. Oudot 
+- [Persistence Theory: From Quiver Representations to Data Analysis](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf) - Steve Y Oudot.
 
-* [Topological and Statistical Methods for Complex Data: Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces](https://www.springer.com/gp/book/9783662448991) -  Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio (Eds.)
+- [Topological and Statistical Methods for Complex Data: Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces](https://www.springer.com/gp/book/9783662448991) -  Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio.
 
-* [Topological Based Machine Learning Methods](https://escholarship.org/uc/item/4vr8963d) - Alex Georges
+- [Topological Based Machine Learning Methods](https://escholarship.org/uc/item/4vr8963d) - Alex Georges.
 
-* [Topological Data Analysis for Genomics and Evolution: Topology in Biology](https://www.cambridge.org/core/books/topological-data-analysis-for-genomics-and-evolution/FCC8429FAD2B5D1525AEA47A8366D6EB) - Raul Rabadan, Andrew J. Blumberg
+- [Topological Data Analysis for Genomics and Evolution: Topology in Biology](https://www.cambridge.org/core/books/topological-data-analysis-for-genomics-and-evolution/FCC8429FAD2B5D1525AEA47A8366D6EB) - Raul Rabadan, Andrew J Blumberg.
 
-* [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien 
+- [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien.
 
-* [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J. ZOMORODIAN
+- [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J ZOMORODIAN.
 
-* [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications](https://www.springer.com/gp/book/9783642150135), [II](https://www.springer.com/gp/book/9783642231742), [III](https://www.springer.com/gp/book/9783319040981), [IV](https://www.springer.com/gp/book/9783319446820)
+- [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications](https://www.springer.com/gp/book/9783642150135)
+- [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications II](https://www.springer.com/gp/book/9783642231742)
+- [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications III](https://www.springer.com/gp/book/9783319040981)
+- [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications IV](https://www.springer.com/gp/book/9783319446820)
   
-* [Topology-based Methods in Visualization](https://www.springer.com/gp/book/9783540708223) -  Hauser, Helwig, Hagen, Hans, Theisel, Holger (Eds.)
+- [Topology-based Methods in Visualization](https://www.springer.com/gp/book/9783540708223) -  Hauser, Helwig, Hagen, Hans, Theisel, Holger (Eds.)
   
 ### Articles
 
-* [A Fuzzy Clustering Algorithm for the Mode Seeking Framework](https://arxiv.org/abs/1406.7130) - Bonis, Oudot
+- [A Fuzzy Clustering Algorithm for the Mode Seeking Framework](https://arxiv.org/abs/1406.7130) - Bonis, Oudot.
 
-* [A topological data analysis based classification method for multiple measurements](https://arxiv.org/abs/1904.02971) - Riihimäki, Chachólski, Theorell, Hillert, Ramanujam
+- [A topological data analysis based classification method for multiple measurements](https://arxiv.org/abs/1904.02971) - Riihimäki, Chachólski, Theorell, Hillert, Ramanujam.
 
-* [A User’s Guide to Topological Data Analysis](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) - Elizabeth Munch
+- [A User's Guide to Topological Data Analysis](https://learning-analytics.info/journals/index.php/JLA/article/view/5196/6089) - Elizabeth Munch.
   
-* [An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists](https://arxiv.org/abs/1710.04019) - Chazal, Michel
+- [An introduction to Topological Data Analysis:  fundamental and practical aspects for data scientists](https://arxiv.org/abs/1710.04019) - Chazal, Michel.
 
-* [Barcodes: The Persistent Topology of Data](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf) - Robert Ghrist
+- [Barcodes: The Persistent Topology of Data](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf) - Robert Ghrist.
 
-* [Computing Persistent Homology (Discrete and Computational Geometry)](https://geometry.stanford.edu/papers/zc-cph-05/zc-cph-05.pdf) - Zomorodian, Carlsson
+- [Computing Persistent Homology (Discrete and Computational Geometry)](https://geometry.stanford.edu/papers/zc-cph-05/zc-cph-05.pdf) - Zomorodian, Carlsson.
 
-* [Deep Learning with Topological Signatures](https://papers.nips.cc/paper/6761-deep-learning-with-topological-signatures.pdf) - Hofer, Kwitt, Niethammer, Uhl
+- [Deep Learning with Topological Signatures](https://papers.nips.cc/paper/6761-deep-learning-with-topological-signatures.pdf) - Hofer, Kwitt, Niethammer, Uhl.
 
-* [Designing machine learning workflows with an application to topological data analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225577) - Cawi, La Rosa, Nehorai  
+- [Designing machine learning workflows with an application to topological data analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225577) - Cawi, La Rosa, Nehorai.
 
-* [Introduction to the R package TDA](cran.r-project.org/web/packages/TDA/vignettes/article.pdf) - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau 
+- [Introduction to the R package TDA](https://cran.r-project.org/web/packages/TDA/vignettes/article.pdf) - Fasy, Jisu Kim, Lecci, Clément Maria, Millman, Rouvreau.
   
-* [Homological Algebra and Data](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf) - Robert Ghrist
+- [Homological Algebra and Data](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf) - Robert Ghrist.
   
-* [Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport](https://arxiv.org/abs/1805.08331) -  Lacombe, Cuturi, OUDOT 
+- [Large Scale computation of Means and Clusters for Persistence Diagrams using Optimal Transport](https://arxiv.org/abs/1805.08331) -  Lacombe, Cuturi, OUDOT.
   
-* [Sampling real algebraic varieties for topological data analysis](https://arxiv.org/abs/1802.07716) - Dufresne, Edwards, Harrington, Hauenstein
+- [Sampling real algebraic varieties for topological data analysis](https://arxiv.org/abs/1802.07716) - Dufresne, Edwards, Harrington, Hauenstein.
 
-* [Stratifying Multiparmeter Persistent Homology](https://arxiv.org/pdf/1708.07390.pdf)  - Harriington, Otter, Schenck, Tillmann
+- [Stratifying Multiparmeter Persistent Homology](https://arxiv.org/pdf/1708.07390.pdf) - Harriington, Otter, Schenck, Tillmann.
   
-* [Text Mining using Topological Data Analysis. An introduction](https://www.researchgate.net/publication/323705256_Text_Mining_using_Topological_Data_Analysis_An_introduction) - G. A. Carrazana, C. O. C. Chong
+- [Text Mining using Topological Data Analysis. An introduction](https://www.researchgate.net/publication/323705256_Text_Mining_using_Topological_Data_Analysis_An_introduction) - Carrazana, Chong.
 
-* [Topology and Data](https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf) - Gunnar Carlsson
+- [Topology and Data](https://www.ams.org/journals/bull/2009-46-02/S0273-0979-09-01249-X/S0273-0979-09-01249-X.pdf) - Gunnar Carlsson.
 
-* [Topological Data Analysis](https://arxiv.org/abs/1609.08227) - Larry Wasserman
+- [Topological Data Analysis](https://arxiv.org/abs/1609.08227) - Larry Wasserman.
 
-* [Topological Data Analysis and Its Application to Time-Series Data Analysis](https://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol55-2/paper15.pdf) - Y. Umeda, J. Kaneko, H. Kikuchi
+- [Topological Data Analysis and Its Application to Time-Series Data Analysis](https://www.fujitsu.com/global/documents/about/resources/publications/fstj/archives/vol55-2/paper15.pdf) - Umeda, Kaneko, Kikuchi.
 
-* [Topological Data Analysis and Machine Learning Theory](https://www.birs.ca/workshops/2012/12w5081/report12w5081.pdf) - Carlsson , Jardine, Feichtner-Kozlov, Morozov
+- [Topological Data Analysis and Machine Learning Theory](https://www.birs.ca/workshops/2012/12w5081/report12w5081.pdf) - Carlsson , Jardine, Feichtner-Kozlov, Morozov.
 
-* [Topological Data Analysis for Object Data](https://arxiv.org/abs/1804.10255) - Patrangenaru, Bubenik, Paige, Osborne 
+- [Topological Data Analysis for Object Data](https://arxiv.org/abs/1804.10255) - Patrangenaru, Bubenik, Paige, Osborne .
 
-* [Two-Tier Mapper: a user-independent clustering method for global gene expression analysis based on topology](https://arxiv.org/abs/1801.01841) - Jeitziner, Carrière, Rougemont, Oudot, Hess, Brisken
+- [Two-Tier Mapper: a user-independent clustering method for global gene expression analysis based on topology](https://arxiv.org/abs/1801.01841) - Jeitziner, Carrière, Rougemont, Oudot, Hess, Brisken.
 
-* [Why Topology for Machine Learning and Knowledge Extraction?](https://res.mdpi.com/d_attachment/make/make-01-00006/article_deploy/make-01-00006.pdf) - Massimo Ferri
+- [Why Topology for Machine Learning and Knowledge Extraction?](https://res.mdpi.com/d_attachment/make/make-01-00006/article_deploy/make-01-00006.pdf) - Massimo Ferri.
 
 ### Courses
-- [Applied Algebraic Topology Research Network](https://topology.ima.umn.edu/seminars) Videos of presentations to the [Applied Algebraic Topology Research Network](https://topology.ima.umn.edu).
+- [Applied Algebraic Topology Seminars](https://topology.ima.umn.edu/seminars)
 
-- [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) A course is not active, but the course notes are useful.
+- [Computational Topology and Data Analysis](http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html) - Course is not active, but the course notes are useful.
 
-- [Topological Data Analysis](http://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) A course is not active, but the course notes are useful.
+- [Topological Data Analysis](http://www.enseignement.polytechnique.fr/informatique/INF556/#Synopsis) - Course is not active, but the course notes are useful.
 
-- [Topics in topology: Scientific and engineering applications of algebraic topology](http://homepage.math.uiowa.edu/~idarcy/AT/prelectures.html) a 2013 lecture series ([videos here](https://www.youtube.com/channel/UCThuKLGcSXhBJ5GlwzHobJw/videos?view=0&sort=da&flow=grid)) on TDA.
+- [Topics in topology: Scientific and engineering applications of algebraic topology](http://homepage.math.uiowa.edu/~idarcy/AT/prelectures.html) - 2013 lecture series. 
+<!--([videos here](https://www.youtube.com/channel/UCThuKLGcSXhBJ5GlwzHobJw/videos?view=0&sort=da&flow=grid)) on TDA.--->
 
 ## Tools
-- [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) A set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing [persistent] homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R.
+- [Ctl](https://github.com/appliedtopology/ctl) - (C++11 library) A set of generic tools for Building Neighborhood Graphs and Cellular Complexes, Computing (persistent) homology over finite fields, Parallel algorithms for homology. an be used with c++, Python, MATLAB and R.
 
-- [Knotter](https://github.com/rosinality/knotter) Implementation of Mapper algorithm for TDA
+- [Knotter](https://github.com/rosinality/knotter) - Implementation of Mapper algorithm for TDA.
 
 - [RIVET](https://github.com/rivetTDA/rivet) - For the visualization and analysis of two-parameter persistent homology with [Python API](https://github.com/rivetTDA/rivet-python/).
 
@@ -157,13 +158,13 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ## Frameworks and Libs
 
 ### C++  
-- [Dionysus](http://mrzv.org/software/dionysus/) and [Dionysus2](https://github.com/iaciac/dionysus) - Computing persistent (co)homology. Implementation of the Persistent (co)homology computation, Vineyards, Zigzag persistent homology algorithms.
+- [Dionysus](http://mrzv.org/software/dionysus/) - Computing persistent (co)homology, Implementation of the Persistent (co)homology computation, Vineyards, Zigzag persistent homology algorithms.
 
 - [GUDHI](http://gudhi.gforge.inria.fr/) - Geometry Understanding in Higher Dimensional with a Python interface.
 
 - [PHAT](https://bitbucket.org/phat-code/phat) - Persistent Homology Algorithm Toolbox.
     
-### GO
+### Go
 - [TDA](https://github.com/kshedden/tda) - Some methods are provided for gridded data (images).
 
 ### Haskell 
@@ -173,7 +174,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [JavaPlex](https://github.com/appliedtopology/javaplex) - The JavaPlex library implements persistent homology and related techniques. It designed for ease of use from Matlab and java-based systems.
 
 ### Julia 
-- [Eirene.jl](https://github.com/Eetion/Eirene.jl) -  For homological persistence 
+- [Eirene.jl](https://github.com/Eetion/Eirene.jl) -  For homological persistence.
 - [TDA.jl](https://github.com/wildart/TDA.jl) - This package provides Persistence Diagram & Barcode, Nerve, Mapper tools for topological data analysis.
 
 ### Matlab
@@ -196,7 +197,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Qsv](https://github.com/RottenFruits/qsv) - Data structure visualizer.
 
-- [Scikit-TDA](https://scikit-tda.org/)-  For non-topologists.
+- [Scikit-TDA](https://scikit-tda.org/) - For non-topologists.
 
 - [ScTDA](https://github.com/CamaraLab/scTDA) - It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
 
@@ -259,10 +260,10 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Practical Guide to Persistent Homology](http://www.mrzv.org/software/dionysus2/tutorial/index.html)
 
-### Python
+### Use Python
 - [Topological Data Analysis - A Python tutorial](https://www.thekerneltrip.com/statistics/topological-data-analysis-tutorial/)
 
-### R
+### Use R
 - [A Mathematician's Perspective on Topological Data Analysis and R](https://rviews.rstudio.com/2018/11/14/a-mathematician-s-perspective-on-topological-data-analysis-and-r/)
 
 ### Theory and applications of TDA
@@ -274,9 +275,9 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Topological Data Analysis - A Very Short Introduction](https://medium.com/@varad.deshmukh/topological-data-analysis-a-very-short-introduction-611d3238a0bd)
 
-- [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/) - UFL
+- [Topological Data Analysis](https://people.clas.ufl.edu/peterbubenik/intro-to-tda/) - UFL.
 
-- [Topological Data Analysis](https://researcher.watson.ibm.com/researcher/view_group.php?id=6585) - IBM
+- [Topological Data Analysis](https://researcher.watson.ibm.com/researcher/view_group.php?id=6585) - IBM.
 
 - [Theory and applications of topological data analysis](https://datawarrior.wordpress.com/category/tda/)
 
