@@ -28,6 +28,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
   - [Bioinformatics](#bioinformatics)
   - [Brain Network Analysis](#brain-network-analysis)
   - [Computing Homology](#computing-homology)
+  - [Computer Vision](#computer-vision)
   - [Data Professionals](#data-professionals)
   - [Deep Learning](#deep-learning)
   - [Machine Learning](#machine-learning)
@@ -233,6 +234,9 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 ### Computing Homology
 - [Computing Homology](https://jeremykun.com/2013/04/10/computing-homology/)
+
+### Computer Vision
+- [Topological Data Analysis in Computer Vision](https://www.researchgate.net/publication/338956906_Topological_data_analysis_in_computer_vision)
 
 ### Data Professionals
 - [Topological Data Analysis for Data Professionals](https://www.kdnuggets.com/2018/01/topological-data-analysis.html)
