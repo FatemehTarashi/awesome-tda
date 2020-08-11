@@ -1,6 +1,6 @@
 # Awesome TDA  [![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of [Topological Data Analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) tools and resources. In applied mathematics, TDA is an approach to the analysis of datasets using techniques from topology. 
+A curated list of [Topological Data Analysis (TDA)](https://en.wikipedia.org/wiki/Topological_data_analysis) tools and resources. 
 
 If you know of any other tools or resources, read [Contribution Guidelines](https://github.com/FatemehTarashi/awesome-tda/blob/master/contributing.md) and feel free to fork/PR or open a new issue. 
 
