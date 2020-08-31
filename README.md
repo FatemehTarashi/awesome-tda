@@ -289,7 +289,3 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [Conferences and workshops](https://people.clas.ufl.edu/peterbubenik/conferences/)
 
 - [MAY 2020 DATA SCIENCE BOOT CAMPS](https://www.erdosinstitute.org/code)
-
-## License
-
-<a rel="license" href="https://creativecommons.org/licenses/by/1.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by/1.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/1.0/">CC0 1.0 Universal </a>License.
