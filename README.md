@@ -288,4 +288,4 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ## Event
 - [Conferences and workshops](https://people.clas.ufl.edu/peterbubenik/conferences/)
 
-- [MAY 2020 DATA SCIENCE BOOT CAMPS](https://www.erdosinstitute.org/code)
+- [International Conference on Computational Topology and Topological Data Analysis](https://waset.org/computational-topology-and-topological-data-analysis-conference)
