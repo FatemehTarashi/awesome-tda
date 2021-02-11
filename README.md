@@ -200,6 +200,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Scikit-TDA](https://scikit-tda.org/) - For non-topologists.
 
+- [giotto-tda](https://giotto-ai.github.io/gtda-docs/) - A ``scikit-learn``-compatible library for end-to-end topological machine learning including Mapper, persistent homology, vectorization methods for persistence diagrams, and preprocessing components for time series, graphs, images, and point clouds ([paper](https://openreview.net/forum?id=fjQtZJOCTXf)).
+
 - [ScTDA](https://github.com/CamaraLab/scTDA) - It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
 
 - [TMAP](https://tmap.readthedocs.org) - Population-scale microbiome data analysis.
