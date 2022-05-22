@@ -64,15 +64,17 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Computational Homology (Applied Mathematical Sciences)](https://www.amazon.com/dp/1441923543/) - Kaczynski, Mischaikow, Mrozek.
 
-- [Computational Topology: An Introduction](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf) - Herbert Edelsbrunner, John L Harer.
+- :open_book: [Computational Topology: An Introduction](https://www.maths.ed.ac.uk/~v1ranick/papers/edelcomp.pdf) - Herbert Edelsbrunner, John L Harer.
 
-- [Elementary Applied Topology](https://www.math.upenn.edu/~ghrist/notes.html) - Robert Ghrist.
+- :open_book: [Computational Topology for Data Analysis](https://www.cs.purdue.edu/homes/tamaldey/book/CTDAbook/CTDAbook.pdf) - Tamal Krishna Dey, Yusu Wang.
+
+- :open_book: [Elementary Applied Topology](https://www.math.upenn.edu/~ghrist/notes.html) - Robert Ghrist.
 
 - [Fundamentals of Brain Network Analysis](https://www.amazon.com/Fundamentals-Brain-Network-Analysis-Fornito-ebook/dp/B01CRIU886) - Fundamentals of Brain Network Analysis.
 
 - [Geometric and Topological Inference](https://www.researchgate.net/publication/320412992_Geometric_and_Topological_Inference) - Boissonnat, Chazal, Yvinec.
 
-- [Persistence Theory: From Quiver Representations to Data Analysis](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf) - Steve Y Oudot.
+- :open_book: [Persistence Theory: From Quiver Representations to Data Analysis](https://geometrica.saclay.inria.fr/team/Steve.Oudot/books/o-pt-fqrtda-15/surv-209.pdf) - Steve Y Oudot.
 
 - [Topological and Statistical Methods for Complex Data: Tackling Large-Scale, High-Dimensional, and Multivariate Data Spaces](https://www.springer.com/gp/book/9783662448991) -  Bennett, Janine, Vivodtzev, Fabien, Pascucci, Valerio.
 
@@ -82,7 +84,7 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien.
 
-- [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J ZOMORODIAN.
+- :open_book: [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J ZOMORODIAN.
 
 - [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications](https://www.springer.com/gp/book/9783642150135)
 - [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications II](https://www.springer.com/gp/book/9783642231742)
