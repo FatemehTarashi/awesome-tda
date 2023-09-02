@@ -84,6 +84,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Topological Data Analysis for Scientific Visualization](https://www.springer.com/gp/book/9783319715063) - Tierny, Julien.
 
+-  :open_book: [Topological Methods for 3D Point Cloud Processing](https://www-users.cse.umn.edu/~beksi001/publications/topological_methods_for_3d_point_cloud_processing.pdf) - William Joseph Beksi.
+
 - :open_book: [Topology for Computing](http://directory.umm.ac.id/Networking%20Manual/Topology%20for%20Computing.pdf) - AFRA J ZOMORODIAN.
 
 - [Topological Methods in Data Analysis and Visualization: Theory, Algorithms, and Applications](https://www.springer.com/gp/book/9783642150135)
