@@ -165,9 +165,9 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ### C++  
 - [Dionysus](http://mrzv.org/software/dionysus/) - Computing persistent (co)homology, Implementation of the Persistent (co)homology computation, Vineyards, Zigzag persistent homology algorithms.
 
-- [GUDHI](http://gudhi.gforge.inria.fr/) - Geometry Understanding in Higher Dimensional with a Python interface.
-
 - [PHAT](https://bitbucket.org/phat-code/phat) - Persistent Homology Algorithm Toolbox.
+
+- [Topology ToolKit (TTK)](https://topology-tool-kit.github.io/) - Efficient, generic and easy and Topological data analysis and visualization
     
 ### Go
 - [TDA](https://github.com/kshedden/tda) - Some methods are provided for gridded data (images).
@@ -188,6 +188,10 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 ### Python
 - [GDA Public](https://geomdata.github.io/gda-public/) - Several fundamental tools by Geometric Data Analytics Inc. [geomdata](http://www.geomdata.com)
 
+- [Giotto TDA(GTDA)](https://giotto-ai.github.io/gtda-docs/0.5.1/library.html) - A high-performance topological machine learning toolbox
+
+- [GUDHI](http://gudhi.gforge.inria.fr/) - Geometry Understanding in Higher Dimensional with a Python interface.
+
 - [KeplerMapper](https://github.com/MLWave/kepler-mapper) - TDA Mapper algorithm for visualization of high-dimensional data. it can make use of Scikit-Learn API compatible cluster and scaling algorithms.
 
 - [Kohonen](https://github.com/lmjohns3/kohonen) - Kohonen-style vector quantizers: Self-Organizing Map (SOM), Neural Gas, and Growing Neural Gas.
@@ -198,15 +202,21 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [OpenTDA](https://github.com/outlace/OpenTDA)
 
+- [Persim](https://persim.scikit-tda.org/en/latest/) - package for many tools used in analyzing Persistence Diagrams
+
 - [Python Mapper](http://danifold.net/mapper/introduction.html) - Mapper algorithm implementation + graphical user interface.
 
 - [Qsv](https://github.com/RottenFruits/qsv) - Data structure visualizer.
+  
+- [Ripser](https://ripser.scikit-tda.org/en/latest/) -  lean persistent homology package.
 
 - [Scikit-TDA](https://scikit-tda.org/) - For non-topologists.
 
 - [Giotto-TDA](https://giotto-ai.github.io/gtda-docs/) - A ``scikit-learn`` - compatible library for end-to-end topological machine learning including Mapper, persistent homology, vectorization methods for persistence diagrams, and preprocessing components for time series, graphs, images, and point clouds ([paper](https://openreview.net/forum?id=fjQtZJOCTXf)).
 
 - [ScTDA](https://github.com/CamaraLab/scTDA) - It includes tools for the preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
+
+- [Topology ToolKit (TTK)](https://topology-tool-kit.github.io/) - Efficient, generic and easy and Topological data analysis and visualization
 
 - [TMAP](https://tmap.readthedocs.org) - Population-scale microbiome data analysis.
 
