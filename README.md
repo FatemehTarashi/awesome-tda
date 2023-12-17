@@ -281,6 +281,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [Practical Guide to Persistent Homology](http://www.mrzv.org/software/dionysus2/tutorial/index.html)
 
 ### Use Python
+- [Python Tutorial on Topological Data Analysis](https://0div0-content.s3.amazonaws.com/9ba44202a3de4f5b886f02bcf4509eea.pdf?AWSAccessKeyId=ASIATVY7X35OJYDSO5M4&Signature=LhLsmMXzgk2PBn150kymF1%2FnZnw%3D&x-amz-security-token=IQoJb3JpZ2luX2VjEDMaCXVzLXdlc3QtMiJGMEQCIEWMRBE3XIoEPPFzA9Q%2BI%2FRXYnLh%2FRL%2FMolzUq9hvP1jAiAdUGTJXzcE%2FF138hyhFC4uWzzigHQNauIH0nK%2B4QkUtyqMBAis%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAAaDDI1MjkzMjc3NTc3MiIMYTejad98V6pprpwGKuADDcQmfxdNXLfruXBy6JMMg4AQef6ze7cfrP%2BRW5sqhR1zUVW2KCS4vUTfM5F7te%2Bq6iFNjsq2xEvu88UV7UNBT0lTTxgS5%2BneCOnZNEIE7lja4Io%2F4%2FWOB0qlymBt5atqMOJIwf9v%2BTGBHLej86UKSF06KQA7R5ERGyKEDQvkjMdIj9Nj9DgJsD0AebM%2B5fQYJ1BnUZXQDWEciKxwVf%2Bams7qYyUsmxEIvk1JZ0ir8pCHOx5eiFRd7otCA79KVEUqc5KlPDABqDxrojiMrJNpViyvOn7ivbsxXGxTN1vLkWVz3q6hMPHRLQ%2FCJ964QcMqNTm6aVaST%2FJ1nmPibQZa5JzBY3RYJE%2BHtZOQTmgl%2Fe0YmLbxLrP5GLvHbP63U%2BLkjptV%2F7ju5Yov7qr26dROZx1Czm%2FXn72E1aV%2Bp2EClEDirPL2S18aJRrD2ZRWV8n%2BNcVqwDsjxD%2FN06pjyrajS1q4rJ%2BdDcNkaIhgPNkuPtRFljbH1Ui0Z0G%2BVLEggYz1Hy2EdP7%2B%2F3hFpAkLOG3DyZSKm293SW4ommtqYS4dTGSZBlBtZiBrbDbcPPzyyP4sc5UxK1BQ7PcMN%2FZ8y4R3S9dJNHLDD6RV8Xjjq2fgd0tLQiWCbBcxWXqv8VrD%2B5RyMLKI%2FasGOqYB5dPgkSD0JOhUnb3r7V7JVwcDfWNynjQLskydTrvm%2FJ4o3u7L7hI%2BWu5MtE%2FFTrLThBJSx%2FFqLpP9e5HbinpjtczMX6Ep82shIZ3GEE0PwXAgkstVFu5KIJUnwY39GU%2FCrp97TIuR1KQKgvKUNOgPK8b%2BvA8MYvJ%2Bb8kc5RRFbQCsgczyJ9hLnqb01t7tEXW56%2B3NRosCXKKEAOyDrC73UYh%2FdfEedw%3D%3D&Expires=1703098850) 
+
 - [Topological Data Analysis - A Python tutorial](https://www.thekerneltrip.com/statistics/topological-data-analysis-tutorial/)
 
 ### Use R
