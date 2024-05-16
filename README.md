@@ -307,3 +307,15 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 - [Conferences and workshops](https://people.clas.ufl.edu/peterbubenik/conferences/)
 
 - [International Conference on Computational Topology and Topological Data Analysis](https://waset.org/computational-topology-and-topological-data-analysis-conference)
+
+### 2024
+
+- [Jan. 30 - Feb. 2 | The 4th POSTECH MINDS Workshop on Topological Data Analysis and Machine Learning | Korea ](https://sites.google.com/view/2024-tda-ml/home)
+ 
+- [Feb. 7 - Apr. 1 | self-study group for textbook: "Computational Topology for Data Analysis" | zoom ](https://www.erdosinstitute.org/programs/spring-2024/topological-data-analysis)
+
+- [Mar. 21 - Mar. 22 | Workshop on Topological Data Analysis | India ](https://cus.ac.in/images/content/dynamic/noti/2024/March/Workshop%20Poster.pdf)
+
+- [Aug. 7 - Aug. 9 | the 4th annual Centre for Topological Data Analysis conference | Oxford, UK](https://www.maths.ox.ac.uk/groups/topological-data-analysis/spires-2024)
+
+- [Oct. 13 - Oct. 18 | TopoInVis 2024 - Topological Data Analysis and Visualization | Florida, USA ](https://topoinvis-workshop.github.io/2024/)
