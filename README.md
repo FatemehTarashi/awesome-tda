@@ -316,6 +316,8 @@ If you know of any other tools or resources, read [Contribution Guidelines](http
 
 - [Mar. 21 - Mar. 22 | Workshop on Topological Data Analysis | India ](https://cus.ac.in/images/content/dynamic/noti/2024/March/Workshop%20Poster.pdf)
 
-- [Aug. 7 - Aug. 9 | the 4th annual Centre for Topological Data Analysis conference | Oxford, UK](https://www.maths.ox.ac.uk/groups/topological-data-analysis/spires-2024)
+### 2025
 
-- [Oct. 13 - Oct. 18 | TopoInVis 2024 - Topological Data Analysis and Visualization | Florida, USA ](https://topoinvis-workshop.github.io/2024/)
+- [Jan. 8 | AMS Special Session on Topological Data Analysis: Theory and Applications](https://jointmathematicsmeetings.org/meetings/national/jmm2025/2314_program_ss121.html)
+
+- [Jun. 30 - Jul. 4 | EWM-EMS Summer School: Stability in Topological Data Analysis | Sweden](https://www.mittag-leffler.se/activities/ewm-ems-summer-school-stability-in-topological-data-analysis/#program)
