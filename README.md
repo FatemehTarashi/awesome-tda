@@ -183,6 +183,7 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [pyflagser](https://github.com/giotto-ai/pyflagser) - Python API for Flagser, computing homology of directed flag complexes.
 - [Python Mapper](http://danifold.net/mapper/introduction.html) - Mapper algorithm implementation with a graphical user interface.
 - [Qsv](https://github.com/RottenFruits/qsv) - Data structure visualizer.
+- [quaternion-monoid-algebra](https://github.com/consigcody94/quaternion-monoid-algebra) - Compositional monoid algebra over quaternion state packets, with machine-checked proofs that composing a configuration with a common element preserves persistence diagrams exactly; validated on TUM RGB-D and EuRoC MAV pose streams.
 - [Ripser.py](https://ripser.scikit-tda.org/en/latest/) - Lean persistent homology package.
 - [Scikit-TDA](https://scikit-tda.org/) - Python ecosystem for topological data analysis.
 - [ScTDA](https://github.com/CamaraLab/scTDA) - Tools for preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
