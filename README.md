@@ -38,6 +38,7 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
   - [Use Python](#use-python)
   - [Use R](#use-r)
   - [Theory and Applications of TDA](#theory-and-applications-of-tda)
+  - [Journals and Communities](#journals-and-communities)
 - [Event](#event)
 
 <!--lint enable no-missing-blank-lines alphabetize-lists list-item-punctuation-->
@@ -45,12 +46,6 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 ## Theory
 
 ### Algorithms
-
-<!-- * Morse-Smale complex -->
-<!-- * Persistent homology computation -->
-<!-- * Persistent cohomology computation -->
-<!-- * Reeb graph -->
-<!-- * Topological Domains in Mammalian Genomes Identified by Analysis of Chromatin Interactions -->
 
 - [Chunk](https://www.researchgate.net/publication/235766026_Clear_and_Compress_Computing_Persistent_Homology_in_Chunks)
 - [Mapper](http://diglib.eg.org/handle/10.2312/SPBG.SPBG07.091-100) ([brief summary](https://github.com/ognis1205/spark-tda/wiki/Mapper))
@@ -122,9 +117,11 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [GUDHI Tutorials](https://gudhi.inria.fr/tutorials/) - Official tutorials for the GUDHI library.
 - [Scikit-TDA Tutorial](https://docs.scikit-tda.org/en/latest/notebooks/scikit-tda%20Tutorial.html) - Introductory tutorial for the Scikit-TDA ecosystem.
 - [Topological Data Analysis - A Python Tutorial](https://www.thekerneltrip.com/statistics/topological-data-analysis-tutorial/) - Introductory Python tutorial.
+- [Topological Machine Learning Lectures](https://www.youtube.com/@Pseudomanifold) - Video lecture series on topological machine learning by Bastian Rieck.
 
 ## Tools
 
+- [DONUT](https://donut.topology.rocks/) - Database of Original & Non-Theoretical Uses of Topology; a curated literature database of real-world applied topology.
 - [Hera](https://github.com/anigmetov/hera) - Software for bottleneck and Wasserstein distances between persistence diagrams.
 - [HomCloud](https://homcloud.dev/index.en.html) - Persistent homology software with a Python interface, used especially for scientific and materials-data analysis.
 - [RIVET](https://github.com/rivetTDA/rivet) - Visualization and analysis of two-parameter persistent homology with a [Python API](https://github.com/rivetTDA/rivet-python/).
@@ -134,12 +131,14 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 
 ### C++
 
+- [Aleph](https://github.com/Pseudomanifold/Aleph) - Versatile C++ library for persistent homology, intersection homology, and diverse scientific data formats.
 - [Ctl](https://github.com/appliedtopology/ctl) - C++11 library for building neighborhood graphs and cellular complexes, computing persistent homology over finite fields, and running parallel algorithms for homology. Can be used with C++, Python, MATLAB, and R.
 - [Cubical Ripser](https://github.com/shizuo-kaji/CubicalRipser_3dim) - Software for computing persistent homology of cubical complexes, especially useful for image and volume data.
 - [Dionysus](http://mrzv.org/software/dionysus/) - Computing persistent (co)homology, including persistent cohomology, vineyards, and zigzag persistent homology algorithms.
 - [DIPHA](https://github.com/DIPHA/dipha) - Distributed persistent homology computation with MPI support.
 - [Flagser](https://github.com/luetge/flagser) - Computes homology of directed flag complexes.
 - [PHAT](https://github.com/blazs/phat) - Persistent Homology Algorithm Toolbox.
+- [ripser++](https://github.com/simonzhang00/ripser-plusplus) - GPU-accelerated computation of Vietoris-Rips persistent homology using CUDA.
 - [Topology ToolKit (TTK)](https://topology-tool-kit.github.io/) - Efficient and generic topological data analysis and visualization.
 
 ### Go
@@ -157,6 +156,7 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 ### Julia
 
 - [Eirene.jl](https://github.com/Eetion/Eirene.jl) - For homological persistence.
+- [GeometricDatasets.jl](https://github.com/JuliaTDA/GeometricDatasets.jl) - Generate canonical geometric benchmark datasets for TDA in Julia.
 - [JuliaTDA](https://github.com/JuliaTDA) - Organization collecting Julia packages for topological data analysis.
 - [PersistenceDiagrams.jl](https://github.com/mtsch/PersistenceDiagrams.jl) - Types and utilities for working with persistence diagrams in Julia.
 - [Ripserer.jl](https://github.com/mtsch/Ripserer.jl) - Flexible and efficient pure-Julia implementation of the Ripser algorithm for computing persistent homology.
@@ -170,6 +170,9 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 
 ### Python
 
+- [BATS.py](https://github.com/CompTop/BATS.py) - Python bindings for Basic Applied Topology Subprograms supporting zigzag homology and cell complexes.
+- [cechmate](https://github.com/scikit-tda/cechmate) - Custom simplicial filtration constructors for Čech, Alpha, and Vietoris-Rips complexes in the Scikit-TDA ecosystem.
+- [Dionysus 2](https://mrzv.org/software/dionysus2/) - Library for computing persistent homology in C++ with Python bindings.
 - [GDA Public](https://geomdata.github.io/gda-public/) - Several fundamental tools by Geometric Data Analytics Inc. [geomdata](http://www.geomdata.com).
 - [giotto-ph](https://pypi.org/project/giotto-ph/) - High-performance persistent homology backend for Vietoris-Rips filtrations.
 - [Giotto-TDA](https://giotto-ai.github.io/gtda-docs/) - A `scikit-learn`-compatible library for end-to-end topological machine learning, including Mapper, persistent homology, vectorization methods for persistence diagrams, and preprocessing components for time series, graphs, images, and point clouds ([paper](https://openreview.net/forum?id=fjQtZJOCTXf)).
@@ -178,6 +181,7 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [Knotter](https://github.com/rosinality/knotter) - Implementation of the Mapper algorithm for TDA.
 - [Mapper Implementation](https://github.com/ksanjeevan/mapper-tda) - Topological data analysis for high-dimensional dataset exploration.
 - [MoguTDA](https://github.com/stephenhky/MoguTDA) - Numerical calculation of algebraic topology for TDA, including simplicial complexes and estimates of homology and Betti numbers.
+- [multipers](https://github.com/DavidLapous/multipers) - Scikit-learn-compatible Python library for multiparameter persistent homology with PyTorch autodiff support.
 - [OpenTDA](https://github.com/outlace/OpenTDA)
 - [Persim](https://persim.scikit-tda.org/en/latest/) - Tools for analyzing persistence diagrams.
 - [pyflagser](https://github.com/giotto-ai/pyflagser) - Python API for Flagser, computing homology of directed flag complexes.
@@ -185,10 +189,16 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [Qsv](https://github.com/RottenFruits/qsv) - Data structure visualizer.
 - [quaternion-monoid-algebra](https://github.com/consigcody94/quaternion-monoid-algebra) - Compositional monoid algebra over quaternion state packets, with machine-checked proofs that composing a configuration with a common element preserves persistence diagrams exactly; validated on TUM RGB-D and EuRoC MAV pose streams.
 - [Ripser.py](https://ripser.scikit-tda.org/en/latest/) - Lean persistent homology package.
+- [ripser++](https://github.com/simonzhang00/ripser-plusplus) - GPU-accelerated computation of Vietoris-Rips persistent homology using CUDA.
 - [Scikit-TDA](https://scikit-tda.org/) - Python ecosystem for topological data analysis.
 - [ScTDA](https://github.com/CamaraLab/scTDA) - Tools for preprocessing, analysis, and exploration of single-cell RNA-seq data based on topological representations.
+- [tda-mapper](https://github.com/lucasimi/tda-mapper-python) - Scalable scikit-learn-compatible implementation of the Mapper algorithm with Plotly/PyVis visualizations and an interactive web app.
+- [teaspoon](https://github.com/TeaspoonTDA/teaspoon) - Comprehensive Python library for Topological Signal Processing (TSP), time-series analysis via Takens' embedding, and persistence vectorization.
 - [TMAP](https://tmap.readthedocs.org) - Population-scale microbiome data analysis.
+- [TopoBenchmarkX](https://github.com/pyt-team/TopoBenchmarkX) - A modular benchmarking library for topological deep learning on graphs and higher-order topological domains.
 - [TopoDrift](https://github.com/FranzuBaren/topodrift) - Open benchmark for topological drift detection: evaluates persistent homology against KS/MMD/PSI on 7 regime types invisible to classical statistics.
+- [TopoModelX](https://github.com/pyt-team/TopoModelX) - A Python library for topological deep learning using PyTorch, supporting simplicial, cellular, and hypergraph neural networks.
+- [TopoNetX](https://github.com/pyt-team/TopoNetX) - A Python library for computing and machine learning on topological domains (simplicial complexes, cell complexes, and combinatorial complexes).
 - [torch_topological](https://pytorch-topological.readthedocs.io/) - Topological machine learning tools for PyTorch.
 - [torch-tda](https://github.com/CompTop/torch-tda) - Automatic differentiation utilities for topological data analysis.
 - [torchph](https://c-hofer.github.io/torchph/) - PyTorch extensions for persistent homology and differentiable persistent homology computations.
@@ -221,16 +231,16 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [An algebraic topological method for multimodal brain networks comparisons](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00904/full)
 - [Complex Brain Network Analysis and Its Applications to Brain Disorders: A Survey](https://new.hindawi.com/journals/complexity/2017/8362741/)
 - [Functional Brain Network Topology Discriminates between Patients with Minimally Conscious State and Unresponsive Wakefulness Syndrome](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6463121/)
-- [Graph theory methods: applications in brain networks](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6136126/)
-- [Topological Methods in Brain Network Analysis](https://braintopology.wordpress.com/tda/)
 
 ### Computing Homology
 
-- [Computing Homology](https://jeremykun.com/2013/04/10/computing-homology/)
+- [Fast computation of persistent homology with small memory footprint](https://www.researchgate.net/publication/235766026_Clear_and_Compress_Computing_Persistent_Homology_in_Chunks)
 
 ### Computer Vision
 
-- [Topological Data Analysis in Computer Vision](https://www.researchgate.net/publication/338956906_Topological_data_analysis_in_computer_vision)
+- [Topological Data Analysis and Its Application in Computer Vision](https://www.researchgate.net/publication/327702816_Topological_Data_Analysis_and_Its_Application_in_Computer_Vision)
+- [Topological methods in computer vision](https://www.researchgate.net/publication/262276538_Topological_methods_in_computer_vision)
+- [Topology and Geometry in Computer Vision](https://www.springer.com/gp/book/9783540674085)
 
 ### Data Professionals
 
@@ -238,9 +248,12 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 
 ### Deep Learning
 
+- [A Topology Layer for Machine Learning](https://arxiv.org/abs/1905.12200)
+- [Architectures of Topological Deep Learning: A Survey on Topological Neural Networks](https://arxiv.org/abs/2304.10031) - Papillon, Sanborn, Hajij, Miolane.
+- [Cellular Complex Networks: Beyond Graph Neural Networks](https://arxiv.org/abs/2010.00743) - Bodnar, Frasca, Wang, Otter, Montufar, Lio.
 - [From Topological Data Analysis to Deep Learning: No Pain No Gain](https://towardsdatascience.com/from-tda-to-dl-d06f234f51d)
 - [On Characterizing the Capacity of Neural Networks Using Algebraic Topology](https://openreview.net/forum?id=H11lAfbCW)
-- [A Topology Layer for Machine Learning](https://arxiv.org/abs/1905.12200)
+- [Topological Deep Learning: Going Beyond Graph Representations](https://arxiv.org/abs/2206.00606) - Hajij, Zamzmi, Papamarkou, et al.
 - [Using Topological Data Analysis to Understand the Behavior of Convolutional Neural Networks](https://www.ayasdi.com/blog/artificial-intelligence/using-topological-data-analysis-understand-behavior-convolutional-neural-networks/)
 
 ### Graphs and Networks
@@ -278,6 +291,11 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [Topological Data Analysis](https://researcher.watson.ibm.com/researcher/view_group.php?id=6585) - IBM.
 - [Theory and applications of topological data analysis](https://datawarrior.wordpress.com/category/tda/)
 
+### Journals and Communities
+
+- [appliedtopology.org](https://appliedtopology.org/) - Global community hub for applied and computational topology researchers with news, conferences, job postings, and software listings.
+- [Journal of Applied and Computational Topology (JACT)](https://www.springer.com/journal/41468) - Peer-reviewed Springer journal dedicated to research bridging algebraic and computational topology with data science, engineering, and science.
+
 
 ## Event
 
@@ -290,6 +308,8 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [Jan. 19 - Jan. 22 | Topological Data Analysis and Industrial Mathematics | Kyushu University, Japan](https://joint.imi.kyushu-u.ac.jp/post-21190/)
 - [Jan. 24 - Jan. 29 | Bridging Topology and Machine Learning for Data Science | BIRS, Banff, Canada](https://www.birs.ca/events/2027/5-day-workshops/27w5781)
 - [Jun. | CG Week / SoCG 2027 | Bangalore, India](https://www.computational-geometry.org/cg-week/)
+- [Jun. 28 - Jul. 2 | ATMCS 13 (Algebraic Topology: Methods, Computation and Science) | KTH, Stockholm, Sweden](https://appliedtopology.org/)
+- [Jul. 19 - Jul. 23 | SIAM Conference on Applied Algebraic Geometry (AG27) | Osnabrück, Germany](https://www.siam.org/conferences-events/siam-conferences/ag27/)
 - [Aug. 22 - Aug. 27 | Interactions of Topological Data Analysis and Combinatorial Topological Dynamics | BIRS, Banff, Canada](https://www.birs.ca/events/2027/5-day-workshops/27w5720)
 
 ### 2026
@@ -323,4 +343,3 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [Feb. 7 - Apr. 1 | self-study group for textbook: "Computational Topology for Data Analysis" | zoom](https://www.erdosinstitute.org/programs/spring-2024/topological-data-analysis)
 - [Mar. 21 - Mar. 22 | Workshop on Topological Data Analysis | India](https://cus.ac.in/images/content/dynamic/noti/2024/March/Workshop%20Poster.pdf)
 - [Sep. 7 - Dec. 18 | Dual Trimester Program: Geometric Statistics: theory, application, and computation | Germany](https://www.mathematics.uni-bonn.de/him/programs/future/him-trimester-program-3-dtp-2026)
-
