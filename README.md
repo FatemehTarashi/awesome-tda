@@ -88,6 +88,7 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [Computing Persistent Homology](https://geometry.stanford.edu/papers/zc-cph-05/zc-cph-05.pdf) - Zomorodian, Carlsson.
 - [Deep Learning with Topological Signatures](https://papers.nips.cc/paper/6761-deep-learning-with-topological-signatures.pdf) - Hofer, Kwitt, Niethammer, Uhl.
 - [Designing machine learning workflows with an application to topological data analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0225577) - Cawi, La Rosa, Nehorai.
+- [Distinguishing cosmologies with topological analysis of 21-cm hydrogen 2D brightness fields at Cosmic Dawn](https://arxiv.org/abs/2611.18407) - Tsizh, Rudakovskyi, Tymchyshyn
 - [Geometry Helps to Compare Persistence Diagrams](https://epubs.siam.org/doi/10.1137/1.9781611974317.9) - Kerber, Morozov, Nigmetov.
 - [Introduction to the R package TDA](https://cran.r-project.org/web/packages/TDA/vignettes/article.pdf) - Fasy, Kim, Lecci, Maria, Millman, Rouvreau.
 - [Homological Algebra and Data](https://www.math.upenn.edu/~ghrist/preprints/HAD.pdf) - Robert Ghrist.
@@ -203,6 +204,7 @@ If you know of any other tools or resources, read the [Contribution Guidelines](
 - [torch-tda](https://github.com/CompTop/torch-tda) - Automatic differentiation utilities for topological data analysis.
 - [torchph](https://c-hofer.github.io/torchph/) - PyTorch extensions for persistent homology and differentiable persistent homology computations.
 - [TopologyLayer](https://github.com/bruel-gabrielsson/TopologyLayer) - PyTorch-compatible persistent homology layers and featurization tools.
+- [wafer-map-tda](https://github.com/janhavi-giri/wafer-map-tda) - Provides a Python pipeline and educational notebooks for extracting Vietoris–Rips persistence features and Mapper graphs to classify semiconductor wafer map defect patterns.   
 
 ### R
 
